@@ -1,13 +1,19 @@
+<input type="submit" value="Generate Attributes" onclick="createRolls();return null;"/>
 <script>
-document.writeln("<table border='0' cellpadding='4' cellspacing='0'>");
-for(var i=1;i<=10;i++) {
-	document.writeln("<tr style='background-color:" + background(i) + "'>");
-	document.writeln("<td>"+i+"</td>");
-	rollAttrSet();
-	document.writeln("</tr>");
+var rolls = 0;
+function createRolls() {
+	rolls+=1;
+	document.body.innerHTML = "";
+	document.writeln("<input type='submit' value='Generate Attributes: " + rolls + "' onclick='createRolls();return null;'/>");
+	document.writeln("<table border='0' cellpadding='4' cellspacing='0'>");
+	for(var i=1;i<=10;i++) {
+		document.writeln("<tr style='background-color:" + background(i) + "'>");
+		document.writeln("<td>"+i+"</td>");
+		rollAttrSet();
+		document.writeln("</tr>");
+	}
+	document.writeln("</table>");
 }
-
-document.writeln("</table>");
 
 function background(n) {
 	return n % 2 == 0 ? "#FFFFFF" : "#F8F8F8"; 

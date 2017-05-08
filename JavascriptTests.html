@@ -23,10 +23,10 @@ function rollAttr(attr) {
 	document.writeln(attr+": "+roll(4)+"<br/>");
 }
 function roll(n) {
-    var a = Array(n);
-    for (var i = 0; i < n; i++)
-        a[i] = Math.floor(Math.random() * 6) + 1;
-    a = a.sort().slice(n - 3, n);
-    return a[0] + a[1] + a[2];
+    var a=Array(n);
+    for (var i=0;i<n;i++)
+        a[i]=Math.floor(Math.random()*6)+1;
+    a=a.sort().slice(n-3,n);
+    return a[0]+a[1]+a[2];
 }
 </script>

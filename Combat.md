@@ -3,12 +3,10 @@
 # To Hit Locations
 
 * Head
-  * Skull
-  * Face
-  * Throat
+* Face
+* Throat
 * Trunk
-  * Chest/Back
-  * Heart
+* Heart
 * Main Arm
   * Shoulder
   * Upper Arm

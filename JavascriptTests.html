@@ -6,7 +6,7 @@
 	<input type="submit" value="Generate Attributes" onclick="createRolls3();return null;"/></br>
 	<script>
 	var rolls = 0;
-	var numDice = 4;
+	var numDice = 0;
 	
 	function createRolls3() {
 		numDice = 3;
@@ -22,7 +22,7 @@
 		rolls+=1;
 		document.body.innerHTML = "";
 		document.writeln("<body>");
-		document.writeln("<style>body,table,tr,td,input{font:normal 8pt Tahoma}</style>");
+		document.writeln("<style>body,table,tr,td,input{font:normal 8pt Tahoma}.outlineGood{color: black;-webkit-text-fill-color: white;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;}.outlineBad{color: black;-webkit-text-fill-color: red;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;}</style>");
 		document.writeln("<input type='submit' value='Generate Attributes (Rolls : " + rolls + ")' onclick='createRolls();return null;'/><br/>");
 		document.writeln("<br/>");
 		document.writeln("<table border='0' cellpadding='4' cellspacing='0'>");
@@ -50,41 +50,41 @@
 	}
 
 	function rollAttrSet() {
-		//var dice = 4;
-		var physique = roll(numDice);
-		var agility = roll(numDice);
-		var endurance = roll(numDice);
-		var intelligence = roll(numDice);
-		var faith = roll(numDice);
-		var charisma = roll(numDice);
-		var appearance = roll(numDice);
-		var bravery = roll(numDice);
+		var dice = 4;
+		var physique = roll(dice);
+		var agility = roll(dice);
+		var endurance = roll(dice);
+		var intelligence = roll(dice);
+		var faith = roll(dice);
+		var charisma = roll(dice);
+		var appearance = roll(dice);
+		var bravery = roll(dice);
 		var socialclass = die(1,5)+die(1,5)+die(1,5);
 		var leadership = ((2*charisma)+(2*appearance)+(2*physique)+(2*intelligence)+(2*bravery)+(2*socialclass))/10;
-		var greed = roll(numDice);
-		var selfishness = roll(numDice);
-		var lust = roll(numDice);
+		var greed = roll(dice);
+		var selfishness = roll(dice);
+		var lust = roll(dice);
 		var bonus = die(1,6)+die(1,6)-7;
-		formatAttr("Physique",physique);
-		formatAttr("Agility",agility);
-		formatAttr("Endurance",endurance);
+		formatAttr("Phy",physique);
+		formatAttr("Agi",agility);
+		formatAttr("End",endurance);
 		document.writeln("<td colspan=2>|</td>");
-		formatAttr("Intelligence",intelligence);
+		formatAttr("Int",intelligence);
 		formatAttr("Faith",faith);
 		document.writeln("<td colspan=2>|</td>");
-		formatAttr("Charisma",charisma);
-		formatAttr("Appearance",appearance);
-		formatAttr("Bravery",bravery);
+		formatAttr("Cha",charisma);
+		formatAttr("App",appearance);
+		formatAttr("Bra",bravery);
 		document.writeln("<td colspan=2>|</td>");
-		formatAttr("Social Class",socialclass);
+		formatAttr("SC",socialclass);
 		document.writeln("<td colspan=2>|</td>");
-		formatAttr("Leadership",leadership.toFixed(1));
+		formatAttr("Lead",leadership.toFixed(1));
 		document.writeln("<td colspan=2>|</td>");
-		formatAttr("Greed",charisma);
-		formatAttr("Selfishness",appearance);
-		formatAttr("Lust",bravery);
+		formatAttr("Greed",greed);
+		formatAttr("Self",selfishness);
+		formatAttr("Lust",lust);
 		document.writeln("<td colspan=2>|</td>");
-		formatAttr("Bonus Points",bonus);
+		formatAttr("Bonus",bonus);
 		document.writeln("<td colspan=2>|</td>");
 		formatAttr("Total",physique+agility+endurance+intelligence+faith+charisma+appearance+bravery+socialclass+greed+selfishness+lust+bonus);
 	}
@@ -102,7 +102,18 @@
 	}
 
 	function formatAttr(attr, n) {
-		document.writeln("<td>"+attr+" :</td><td align='right'>"+n+"</td>");
+		var font = "";
+		var cls = "";
+		if ((n>=16 && n<=18) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
+			font="font-weight:bold;color:black;";
+		} else if ((n>=3 && n<=5) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
+			font="font-weight:bold;color:red;";
+		} else if ((n>=16 && n<=18)) {
+			font="font-weight:bold;color:red;";
+		} else if ((n>=3 && n<=5) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
+			font="font-weight:bold;color:black;";
+		}
+		document.writeln("<td style='" + font + "'>"+attr+" :</td><td align='right' style='" + font + "'>"+n+"</td>");
 	}
 	
 	Number.prototype.pad = function(size) {

@@ -52,8 +52,10 @@
 	function rollAttrSet() {
 		var dice = 4;
 		var physique = roll(dice);
+		var height = (52+physique)/0.08333;
 		var agility = roll(dice);
 		var endurance = roll(dice);
+		var weight = (50+(endurance*10));
 		var intelligence = roll(dice);
 		var faith = roll(dice);
 		var charisma = roll(dice);
@@ -65,7 +67,7 @@
 		var selfishness = roll(dice);
 		var lust = roll(dice);
 		var bonus = die(1,6)+die(1,6)-7;
-		formatAttr("Phy",physique);
+		formatAttr("Phy [" + height + "]",physique);
 		formatAttr("Agi",agility);
 		formatAttr("End",endurance);
 		document.writeln("<td colspan=2>|</td>");
@@ -117,10 +119,18 @@
 	}
 	
 	Number.prototype.pad = function(size) {
-      var s = String(this);
-      while (s.length < (size || 2)) {s = "0" + s;}
-      return s;
+		var s = String(this);
+		while (s.length < (size || 2)) {s = "0" + s;}
+		return s;
     }
+	
+	Number.prototype.feetToInches = function() {
+		return this*12;
+    }
+
+	Number.prototype.inchesToFeet = function() {
+		return (this/0.083333).toFixed(2);
+	}
 	</script>
 </body>
 </html>

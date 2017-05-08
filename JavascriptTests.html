@@ -104,13 +104,13 @@
 	function formatAttr(attr, n) {
 		var font = "";
 		var cls = "";
-		if ((n>=16 && n<=18) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
+		if ((n>=15 && n<=18) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
 			font="font-weight:bold;color:black;";
-		} else if ((n>=3 && n<=5) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
+		} else if ((n>=3 && n<=6) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
 			font="font-weight:bold;color:red;";
-		} else if ((n>=16 && n<=18)) {
+		} else if ((n>=15 && n<=18)) {
 			font="font-weight:bold;color:red;";
-		} else if ((n>=3 && n<=5) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
+		} else if ((n>=3 && n<=6) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
 			font="font-weight:bold;color:black;";
 		}
 		document.writeln("<td style='" + font + "'>"+attr+" :</td><td align='right' style='" + font + "'>"+n+"</td>");

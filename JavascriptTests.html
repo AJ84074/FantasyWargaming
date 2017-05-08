@@ -13,10 +13,18 @@ function createRolls() {
 		document.writeln("</tr>");
 	}
 	document.writeln("</table>");
+	document.writeln("<a id='downloadlink'>Click to download rolls</a>");
+    var b = document.body.innerHTML;
+	var a = document.getElementById('downloadlink');
+    a.setAttribute('download', 'rolls.html');
+    a.setAttribute('href', 'data:text/html;charset=UTF-8,'+b);
+}
+
+function downloadRolls() {
 }
 
 function background(n) {
-	return n % 2 == 0 ? "#FFFFFF" : "#F8F8F8"; 
+	return n % 2 == 0 ? "#FFFFFF" : "#F0F0F0"; 
 }
 
 function rollAttrSet() {

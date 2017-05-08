@@ -1,78 +1,115 @@
-<input type="submit" value="Generate Attributes" onclick="createRolls();return null;"/>
-<script>
-var rolls = 0;
-function createRolls() {
-	rolls+=1;
-	document.body.innerHTML = "";
-	document.writeln("<input type='submit' value='Generate Attributes: " + rolls + "' onclick='createRolls();return null;'/>");
-	document.writeln("<table border='0' cellpadding='4' cellspacing='0'>");
-	for(var i=1;i<=10;i++) {
-		document.writeln("<tr style='background-color:" + background(i) + "'>");
-		document.writeln("<td>"+i+"</td>");
-		rollAttrSet();
-		document.writeln("</tr>");
+<html>
+<head>
+</head>
+<body>
+	<style>body,table,tr,td,input{font:normal 8pt Tahoma}</style>
+	<input type="submit" value="Generate Attributes" onclick="createRolls3();return null;"/></br>
+	<script>
+	var rolls = 0;
+	var numDice = 4;
+	
+	function createRolls3() {
+		numDice = 3;
+		createRolls();
 	}
-	document.writeln("</table>");
-	document.writeln("<a id='downloadlink'>Click to download rolls</a>");
-    var b = document.body.innerHTML;
-	var a = document.getElementById('downloadlink');
-    a.setAttribute('download', 'rolls.html');
-    a.setAttribute('href', 'data:text/html;charset=UTF-8,'+b);
-}
+	
+	function createRolls4() {
+		numDice = 4;
+		createRolls();
+	}
+	
+	function createRolls() {
+		rolls+=1;
+		document.body.innerHTML = "";
+		document.writeln("<body>");
+		document.writeln("<style>body,table,tr,td,input{font:normal 8pt Tahoma}</style>");
+		document.writeln("<input type='submit' value='Generate Attributes (Rolls : " + rolls + ")' onclick='createRolls();return null;'/><br/>");
+		document.writeln("<br/>");
+		document.writeln("<table border='0' cellpadding='4' cellspacing='0'>");
+		for(var i=1;i<=10;i++) {
+			document.writeln("<tr style='background-color:" + background(i) + "'>");
+			document.writeln("<td>"+i+"</td>");
+			rollAttrSet();
+			document.writeln("</tr>");
+		}
+		document.writeln("</table>");
+		document.writeln("<br/>");
+		document.writeln("<a id='downloadlink'>Click to download rolls</a>");
+		var b = document.body.innerHTML;
+		var a = document.getElementById('downloadlink');
+		a.setAttribute('download', 'rolls.html');
+		a.setAttribute('href', 'data:text/html;charset=UTF-8,'+b);
+		document.writeln("</body>");
+	}
 
-function downloadRolls() {
-}
+	function downloadRolls() {
+	}
 
-function background(n) {
-	return n % 2 == 0 ? "#FFFFFF" : "#F0F0F0"; 
-}
+	function background(n) {
+		return n % 2 == 0 ? "#FFFFFF" : "#F0F0F0"; 
+	}
 
-function rollAttrSet() {
-	var physique = roll(4);
-	var agility = roll(4);
-	var endurance = roll(4);
-	var intelligence = roll(4);
-	var faith = roll(4);
-	var charisma = roll(4);
-	var appearance = roll(4);
-	var bravery = roll(4);
-	var socialclass = roll(4);
-	var leadership = ((2*charisma)+(2*appearance)+(2*physique)+(2*intelligence)+(2*bravery)+(2*socialclass))/10;
-	var greed = roll(4);
-	var selfishness = roll(4);
-	var lust = roll(4);
-	var bonus = die(1,6)+die(1,6)-7;
-	formatAttr("Physique",physique);
-	formatAttr("Agility",agility);
-	formatAttr("Endurance",endurance);
-	document.writeln("<td colspan=2>|</td>");
-	formatAttr("Intelligence",intelligence);
-	formatAttr("Faith",faith);
-	document.writeln("<td colspan=2>|</td>");
-	formatAttr("Charisma",charisma);
-	formatAttr("Appearance",appearance);
-	formatAttr("Bravery",bravery);
-	document.writeln("<td colspan=2>|</td>");
-	formatAttr("Leadership",leadership);
-	document.writeln("<td colspan=2>|</td>");
-	formatAttr("Social Class",socialclass);
-	document.writeln("<td colspan=2>|</td>");
-	formatAttr("Bonus Points",bonus);
-}
+	function rollAttrSet() {
+		//var dice = 4;
+		var physique = roll(numDice);
+		var agility = roll(numDice);
+		var endurance = roll(numDice);
+		var intelligence = roll(numDice);
+		var faith = roll(numDice);
+		var charisma = roll(numDice);
+		var appearance = roll(numDice);
+		var bravery = roll(numDice);
+		var socialclass = die(1,5)+die(1,5)+die(1,5);
+		var leadership = ((2*charisma)+(2*appearance)+(2*physique)+(2*intelligence)+(2*bravery)+(2*socialclass))/10;
+		var greed = roll(numDice);
+		var selfishness = roll(numDice);
+		var lust = roll(numDice);
+		var bonus = die(1,6)+die(1,6)-7;
+		formatAttr("Physique",physique);
+		formatAttr("Agility",agility);
+		formatAttr("Endurance",endurance);
+		document.writeln("<td colspan=2>|</td>");
+		formatAttr("Intelligence",intelligence);
+		formatAttr("Faith",faith);
+		document.writeln("<td colspan=2>|</td>");
+		formatAttr("Charisma",charisma);
+		formatAttr("Appearance",appearance);
+		formatAttr("Bravery",bravery);
+		document.writeln("<td colspan=2>|</td>");
+		formatAttr("Social Class",socialclass);
+		document.writeln("<td colspan=2>|</td>");
+		formatAttr("Leadership",leadership.toFixed(1));
+		document.writeln("<td colspan=2>|</td>");
+		formatAttr("Greed",charisma);
+		formatAttr("Selfishness",appearance);
+		formatAttr("Lust",bravery);
+		document.writeln("<td colspan=2>|</td>");
+		formatAttr("Bonus Points",bonus);
+		document.writeln("<td colspan=2>|</td>");
+		formatAttr("Total",physique+agility+endurance+intelligence+faith+charisma+appearance+bravery+socialclass+greed+selfishness+lust+bonus);
+	}
 
-function roll(n) {
-    var a = Array(n);
-    for (var i = 0; i < n; i++)
-        a[i] = Math.floor(Math.random() * 6) + 1;
-    a = a.sort().slice(n - 3, n);
-    return a[0] + a[1] + a[2];
-}
+	function roll(n) {
+		var a = Array(n);
+		for (var i = 0; i < n; i++)
+			a[i] = Math.floor(Math.random() * 6) + 1;
+		a = a.sort().slice(n - 3, n);
+		return a[0] + a[1] + a[2];
+	}
 
-function die(min, max) {
-    return Math.round((Math.random() * (max - min) + min));
-}
+	function die(min, max) {
+		return Math.round((Math.random() * (max - min) + min));
+	}
 
-function formatAttr(attr, n){
-	document.writeln("<td>"+attr+"</td><td>"+n+"</td>");
-}
-</script>
+	function formatAttr(attr, n) {
+		document.writeln("<td>"+attr+" :</td><td align='right'>"+n+"</td>");
+	}
+	
+	Number.prototype.pad = function(size) {
+      var s = String(this);
+      while (s.length < (size || 2)) {s = "0" + s;}
+      return s;
+    }
+	</script>
+</body>
+</html>

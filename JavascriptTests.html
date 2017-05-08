@@ -1,27 +1,32 @@
 <script>
 var r1;
 r = roll(1,6) + roll(1,6) + roll(1,6);
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
-document.writeln(roll(1,6) + roll(1,6) + roll(1,6));
+rollAttr("Physique");
+rollAttr("Agility");
+rollAttr("Endurance");
+document.writeln("<br/>");
+rollAttr("Intelligence");
+rollAttr("Faith");
+document.writeln("<br/>");
+rollAttr("Charisma");
+rollAttr("Appearance");
+rollAttr("Bravery");
+document.writeln("<br/>");
+rollAttr("Greed");
+rollAttr("Selfishness");
+rollAttr("Lust");
 function roll(min, max) {
     return Math.round((Math.random() * (max - min) + min));
+}
+function rollAttr(attr) {
+	//document.writeln(attr+": "+(roll(1,6)+roll(1,6)+roll(1,6))+"<br/>");
+	document.writeln(attr+": "+roll(4)+"<br/>");
+}
+function roll(n) {
+    var a = Array(n);
+    for (var i = 0; i < n; i++)
+        a[i] = Math.floor(Math.random() * 6) + 1;
+    a = a.sort().slice(n - 3, n);
+    return a[0] + a[1] + a[2];
 }
 </script>

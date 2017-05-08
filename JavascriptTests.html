@@ -1,26 +1,29 @@
 <script>
 var r1;
 r = roll(1,6) + roll(1,6) + roll(1,6);
-rollAttr("Physique");
-rollAttr("Agility");
-rollAttr("Endurance");
+rollAttr("Physique",4);
+rollAttr("Agility",4);
+rollAttr("Endurance",4);
 document.writeln("<br/>");
-rollAttr("Intelligence");
-rollAttr("Faith");
+rollAttr("Intelligence",4);
+rollAttr("Faith",4);
 document.writeln("<br/>");
-rollAttr("Charisma");
-rollAttr("Appearance");
-rollAttr("Bravery");
+rollAttr("Charisma",4);
+rollAttr("Appearance",4);
+rollAttr("Bravery",4);
 document.writeln("<br/>");
-rollAttr("Greed");
-rollAttr("Selfishness");
-rollAttr("Lust");
+rollAttr("Greed",4);
+rollAttr("Selfishness",4);
+rollAttr("Lust",4);
+document.writeln("<br/>");
+rollAttr("Social Class",3);
+
 function roll(min, max) {
     return Math.round((Math.random() * (max - min) + min));
 }
-function rollAttr(attr) {
+function rollAttr(attr, n) {
 	//document.writeln(attr+": "+(roll(1,6)+roll(1,6)+roll(1,6))+"<br/>");
-	document.writeln(attr+": "+roll(4)+"<br/>");
+	document.writeln(attr+": "+roll(n)+"<br/>");
 }
 function roll(n) {
     var a=Array(n);

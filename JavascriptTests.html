@@ -1,35 +1,62 @@
 <script>
-var r1;
-r = roll(1,6) + roll(1,6) + roll(1,6);
-rollAttr("Physique",4);
-rollAttr("Agility",4);
-rollAttr("Endurance",4);
-document.writeln("<br/>");
-rollAttr("Intelligence",4);
-rollAttr("Faith",4);
-document.writeln("<br/>");
-rollAttr("Charisma",4);
-rollAttr("Appearance",4);
-rollAttr("Bravery",4);
-document.writeln("<br/>");
-rollAttr("Greed",4);
-rollAttr("Selfishness",4);
-rollAttr("Lust",4);
-document.writeln("<br/>");
-rollAttr("Social Class",3);
-
-function roll(min, max) {
-    return Math.round((Math.random() * (max - min) + min));
+document.writeln("<table border='0' cellpadding='4' cellspacing='0'>");
+for(var i=1;i<10;i++) {
+	document.writeln("<tr style='background-color:" + background(i) + "'>");
+	rollAttrSet("Physique",4);
+	document.writeln("</tr>");
 }
-function rollAttr(attr, n) {
-	//document.writeln(attr+": "+(roll(1,6)+roll(1,6)+roll(1,6))+"<br/>");
-	document.writeln(attr+": "+roll(n)+"<br/>");
+
+document.writeln("</table>");
+
+//function roll(min, max) {
+//    return Math.round((Math.random() * (max - min) + min));
+//}
+function background(n) {
+	return n % 2 == 0 ? "#FFFFFF" : "#F8F8F8"; 
+}
+function rollAttrSet() {
+	var physique = roll(4);
+	var agility = roll(4);
+	var endurance = roll(4);
+	var intelligence = roll(4);
+	var faith = roll(4);
+	var charisma = roll(4);
+	var appearance = roll(4);
+	var bravery = roll(4);
+	var socialclass = roll(3);
+	var leadership = ((2*charisma)+(2*appearance)+(2*physique)+(2*intelligence)+(2*bravery)+(2*socialclass))/10;
+	var greed = roll(4);
+	var selfishness = roll(4);
+	var lust = roll(4);
+	var bonus = die(1,6)+die(1,6)-7;
+	formatAttr("Physique",physique);
+	formatAttr("Agility",agility);
+	formatAttr("Endurance",endurance);
+	document.writeln("<td colspan=2>|</td>");
+	formatAttr("Intelligence",intelligence);
+	formatAttr("Faith",faith);
+	document.writeln("<td colspan=2>|</td>");
+	formatAttr("Charisma",charisma);
+	formatAttr("Appearance",appearance);
+	formatAttr("Bravery",bravery);
+	document.writeln("<td colspan=2>|</td>");
+	formatAttr("Leadership",leadership);
+	document.writeln("<td colspan=2>|</td>");
+	formatAttr("Social Class",socialclass);
+	document.writeln("<td colspan=2>|</td>");
+	formatAttr("Bonus Points",bonus);
 }
 function roll(n) {
-    var a=Array(n);
-    for (var i=0;i<n;i++)
-        a[i]=Math.floor(Math.random()*6)+1;
-    a=a.sort().slice(n-3,n);
-    return a[0]+a[1]+a[2];
+    var a = Array(n);
+    for (var i = 0; i < n; i++)
+        a[i] = Math.floor(Math.random() * 6) + 1;
+    a = a.sort().slice(n - 3, n);
+    return a[0] + a[1] + a[2];
+}
+function die(min, max) {
+    return Math.round((Math.random() * (max - min) + min));
+}
+function formatAttr(attr, n){
+	document.writeln("<td>"+attr+"</td><td>"+n+"</td>");
 }
 </script>

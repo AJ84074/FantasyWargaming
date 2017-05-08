@@ -5,21 +5,21 @@
 Use the standard hit locations but add the following sub-locations for damage
 
 * Head
- * Scalp
- * Right Ear
- * Left Ear
+  * Scalp
+  * Right Ear
+  * Left Ear
 * Face
- * Forehead
- * Right Cheek
- * Left Cheek
- * Right Eye
- * Left Eye
- * Nose
- * Mouth
- * Chin
+  * Forehead
+  * Right Cheek
+  * Left Cheek
+  * Right Eye
+  * Left Eye
+  * Nose
+  * Mouth
+  * Chin
 * Throat
- * Throat
- * Neck
+  * Throat
+  * Neck
 * Trunk
 * Heart
 * Main Arm

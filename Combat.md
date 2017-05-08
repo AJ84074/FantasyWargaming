@@ -1,5 +1,7 @@
 # Combat Rules
 
+>Between the time when the oceans drank Atlantis and the rise of the sons of Aryas, there was an age undreamed of. And unto this, Conan, destined to wear th jeweled crown of Aquilonia upon a troubled brow. It is I, his chronicler, who alone can tell thee of his saga. Let me tell you of the days of high adventure!
+
 # To Hit Locations
 
 Use the standard hit locations but add the following sub-locations for damage

@@ -2,28 +2,28 @@
 <head>
 </head>
 <body>
-	<style>body,table,tr,td,input{font:normal 8pt Tahoma}</style>
-	<input type="submit" value="Generate Attributes" onclick="createRolls3();return null;"/></br>
+	<style>body,table,tr,td,input{font:normal 8pt Tahoma;}</style>
+	<input type="submit" value="Submit" onclick="createRolls3();return null;"/></br>
 	<script>
 	var rolls = 0;
 	var numDice = 0;
-	
+
 	function createRolls3() {
 		numDice = 3;
 		createRolls();
 	}
-	
+
 	function createRolls4() {
 		numDice = 4;
 		createRolls();
 	}
-	
+
 	function createRolls() {
 		rolls+=1;
 		document.body.innerHTML = "";
 		document.writeln("<body>");
 		document.writeln("<style>body,table,tr,td,input{font:normal 8pt Tahoma}.outlineGood{color: black;-webkit-text-fill-color: white;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;}.outlineBad{color: black;-webkit-text-fill-color: red;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;}</style>");
-		document.writeln("<input type='submit' value='Generate Attributes (Rolls : " + rolls + ")' onclick='createRolls();return null;'/><br/>");
+		document.writeln("<input type='submit' value='Submit (Tries : " + rolls + ")' onclick='createRolls();return null;'/><br/>");
 		document.writeln("<br/>");
 		document.writeln("<table border='0' cellpadding='4' cellspacing='0'>");
 		for(var i=1;i<=10;i++) {
@@ -52,10 +52,10 @@
 	function rollAttrSet() {
 		var dice = 4;
 		var physique = roll(dice);
-		var height = (52+physique)/0.08333;
 		var agility = roll(dice);
 		var endurance = roll(dice);
-		var weight = (50+(endurance*10));
+		var weightMale = (20+(endurance*10));
+		var weightFemale = (0+(endurance*10));
 		var intelligence = roll(dice);
 		var faith = roll(dice);
 		var charisma = roll(dice);
@@ -67,28 +67,36 @@
 		var selfishness = roll(dice);
 		var lust = roll(dice);
 		var bonus = die(1,6)+die(1,6)-7;
-		formatAttr("Phy [" + height + "]",physique);
+		formatAttr("Phy [" + (55+physique).formatInchesToFeetAndInches() + "/" + (53+physique).formatInchesToFeetAndInches() + "]",physique);
 		formatAttr("Agi",agility);
-		formatAttr("End",endurance);
-		document.writeln("<td colspan=2>|</td>");
+		formatAttr("End [" + weightMale + "lbs/" + weightFemale + "lbs]",endurance);
+		document.writeln("<td>|</td>");
 		formatAttr("Int",intelligence);
 		formatAttr("Faith",faith);
-		document.writeln("<td colspan=2>|</td>");
+		document.writeln("<td>|</td>");
 		formatAttr("Cha",charisma);
 		formatAttr("App",appearance);
 		formatAttr("Bra",bravery);
-		document.writeln("<td colspan=2>|</td>");
+		document.writeln("<td>|</td>");
 		formatAttr("SC",socialclass);
-		document.writeln("<td colspan=2>|</td>");
+		document.writeln("<td>|</td>");
 		formatAttr("Lead",leadership.toFixed(1));
-		document.writeln("<td colspan=2>|</td>");
+		document.writeln("<td>|</td>");
 		formatAttr("Greed",greed);
 		formatAttr("Self",selfishness);
 		formatAttr("Lust",lust);
-		document.writeln("<td colspan=2>|</td>");
+		document.writeln("<td>|</td>");
 		formatAttr("Bonus",bonus);
-		document.writeln("<td colspan=2>|</td>");
-		formatAttr("Total",physique+agility+endurance+intelligence+faith+charisma+appearance+bravery+socialclass+greed+selfishness+lust+bonus);
+		//document.writeln("<td>|</td>");
+		//formatAttr("Total",physique+agility+endurance+intelligence+faith+charisma+appearance+bravery+socialclass+greed+selfishness+lust+bonus);
+		var bogeyCount = 0;
+		for(var i=0;i<3;i++) {
+			var r = die(1,100);
+			if (r>=35) {
+				bogeyCount+=1;
+				document.writeln("<tr><td></td><td colspan=20>Bogey " + bogeyCount +  " : " + bogey[r-35] + "</td></tr>");
+			}
+		}
 	}
 
 	function roll(n) {
@@ -107,30 +115,101 @@
 		var font = "";
 		var cls = "";
 		if ((n>=15 && n<=18) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
-			font="font-weight:bold;color:black;";
+			font="font-weight:bold;text-decoration:none;";
 		} else if ((n>=3 && n<=6) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
 			font="font-weight:bold;color:red;";
 		} else if ((n>=15 && n<=18)) {
 			font="font-weight:bold;color:red;";
 		} else if ((n>=3 && n<=6) && (attr!="Greed" && attr!="Self" && attr!="Lust" && attr!="Bonus")) {
-			font="font-weight:bold;color:black;";
+			font="font-weight:bold;text-decoration:none;";
+		} else {
+			font="font-weight:normal;color:#000000;";
 		}
-		document.writeln("<td style='" + font + "'>"+attr+" :</td><td align='right' style='" + font + "'>"+n+"</td>");
+		if (attr == "Phy" || attr == "End") font += "width:100px;";
+		document.writeln("<td>"+attr+" :</td><td align='right' style='" + font + "'>"+n+"</td>");
 	}
-	
+
 	Number.prototype.pad = function(size) {
 		var s = String(this);
 		while (s.length < (size || 2)) {s = "0" + s;}
 		return s;
     }
-	
-	Number.prototype.feetToInches = function() {
-		return this*12;
-    }
 
-	Number.prototype.inchesToFeet = function() {
-		return (this/0.083333).toFixed(2);
+	Number.prototype.formatInchesToFeetAndInches = function() {
+		var inches = this;
+		var feet = Math.floor(inches/12).toFixed(0);
+		inches%=12;
+		return feet + "'" + inches + "\"";
 	}
+	
+	var bogey = [
+		"35",
+		"36",
+		"37",
+		"38",
+		"39",
+		"40",
+		"41",
+		"42",
+		"43",
+		"44",
+		"45",
+		"46",
+		"47",
+		"48",
+		"49",
+		"50",
+		"51",
+		"52",
+		"53",
+		"54",
+		"55",
+		"56",
+		"57",
+		"58",
+		"59",
+		"60",
+		"61",
+		"62",
+		"63",
+		"64",
+		"65",
+		"66",
+		"67",
+		"68",
+		"69",
+		"70",
+		"71",
+		"72",
+		"73",
+		"74",
+		"75",
+		"76",
+		"77",
+		"78",
+		"79",
+		"80",
+		"81",
+		"82",
+		"83",
+		"84",
+		"85",
+		"86",
+		"87",
+		"88",
+		"89",
+		"90",
+		"91",
+		"92",
+		"93",
+		"94",
+		"95",
+		"96",
+		"97",
+		"98",
+		"99",
+		"100",
+	];
 	</script>
 </body>
 </html>

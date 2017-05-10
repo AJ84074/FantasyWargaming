@@ -29,7 +29,7 @@ Odd|Trait|Description|Even|Trait|Description
 83 | Rambler | You have difficulty inspiring Greed in others; opponents you attempt to make a Greed control test have -4 Greed for the attempt | 84 | Grifter | You can easily inspire Greed in others; opponents you attempt to make a Greed control test have +4 Greed for the attempt
 85 | Repulsive | You have difficulty inspiring Lust in others; opponents you attempt to make a Lust control test have -4 Lust for the attempt | 86 | Seductive | You can easily inspire Lust in others; opponents you attempt to make a Lust control test have +4 Lust for the attempt
 87 | Selfishness Penalty |  | 88 | Selfishness bonus | You can easily inspire Selfishness in others; opponents you attempt to make a Selfishness control test have +4 Selfishness for the attempt
-89 |  |  | 90 |  |
+89 | Haunted | You are haunted by the ghosts of those you killed and angered | 90 | Medium | You can see and speak to ghosts
 91 |  |  | 92 |  |
 93 |  |  | 94 |  |
 95 |  |  | 96 |  |

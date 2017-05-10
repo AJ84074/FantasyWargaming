@@ -25,13 +25,13 @@ Odd|Trait|Description|Even|Trait|Description
 73 | Weak mind | Always fails morale and control tests | 74 | Strong mind | Never fails morale or control tests
 77 | Bad luck | -1 on all luck rolls | 78 | Good luck | +1 on all luck rolls
 79 | Bad with animals | Animals (non-sentient) do not like you; you cannot own pets and mounts are difficult for you to control; you can never ride well | 80 | Good with animals | Animals (non-sentient) really like you; you easily own pets and mounts are a breeze for you to control; you can ride well
-81 | | | 82 | |
-83 | | | 84 | |
-85 | | | 86 | |
-87 | | | 88 | |
-89 | | | 90 | |
-91 | | | 92 | |
-93 | | | 94 | |
-95 | | | 96 | |
-97 | | | 98 | |
-99 | | | 100 | |
+81 |  |  | 82 |  |
+83 |  |  | 84 |  |
+85 |  |  | 86 |  |
+87 |  |  | 88 |  |
+89 |  |  | 90 |  |
+91 |  |  | 92 |  |
+93 |  |  | 94 |  |
+95 |  |  | 96 |  |
+97 |  |  | 98 |  |
+99 | Superbad thing |  | 100 | Supergood thing |

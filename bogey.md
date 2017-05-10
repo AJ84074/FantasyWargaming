@@ -25,10 +25,10 @@ Odd|Trait|Description|Even|Trait|Description
 73 | Weak mind | Always fails morale and control tests | 74 | Strong mind | Never fails morale or control tests
 77 | Bad luck | -1 on all luck rolls | 78 | Good luck | +1 on all luck rolls
 79 | Bad with animals | Animals (non-sentient) do not like you; you cannot own pets and mounts are difficult for you to control; you can never ride well | 80 | Good with animals | Animals (non-sentient) really like you; you easily own pets and mounts are a breeze for you to control; you can ride well
-81 |  |  | 82 |  |
-83 |  |  | 84 |  |
-85 |  |  | 86 |  |
-87 |  |  | 88 |  |
+81 | Inoffensive | You have difficulty inspiring Anger in others; opponents you attempt to make an Anger control test have +4 Bravery for the attempt | 82 | Taunting | You can easily inspire Anger in others; opponents you attempt to make an Anger control test have -4 Bravery for the attempt
+83 | Rambler | You have difficulty inspiring Greed in others; opponents you attempt to make a Greed control test have -4 Greed for the attempt | 84 | Grifter | You can easily inspire Greed in others; opponents you attempt to make a Greed control test have +4 Greed for the attempt
+85 | Repulsive | You have difficulty inspiring Lust in others; opponents you attempt to make a Lust control test have -4 Lust for the attempt | 86 | Seductive | You can easily inspire Lust in others; opponents you attempt to make a Lust control test have +4 Lust for the attempt
+87 | Selfishness Penalty |  | 88 | Selfishness bonus | You can easily inspire Selfishness in others; opponents you attempt to make a Selfishness control test have +4 Selfishness for the attempt
 89 |  |  | 90 |  |
 91 |  |  | 92 |  |
 93 |  |  | 94 |  |

@@ -2,17 +2,17 @@
 
 Odd|Trait|Description|Even|Trait|Description
 -|-|-|-|-|-
-35 | | Physique -1        | 36 | | Physique +1
-37 | | Agility -1         | 38 | | Agility +1
-39 | | Endurance -1       | 40 | | Endurance +1
-41 | | Intelligence -1    | 42 | | Intelligence +1
-43 | | Faith -1           | 44 | | Faith +1
-45 | | Charisma -1        | 46 | | Charisma +1
-47 | | Appearance -1      | 48 | | Appearance +1
-49 | | Bravery -1         | 50 | | Bravery +1
-51 | | Greed +1           | 52 | | Greed -1
-53 | | Selfishness +1     | 54 | | Selfishness -1
-55 | | Lust +1            | 56 | | Lust -1
+35 | Weak           | Physique -1               | 36 | Strong           | Physique +1
+37 | Clumsy         | Agility -1                | 38 | Agile            | Agility +1
+39 | Sickly         | Endurance -1              | 40 | Healthy          | Endurance +1
+41 | Dim            | Intelligence -1           | 42 | Brilliant        | Intelligence +1
+43 | Faithless      | Faith -1                  | 44 | Faithful         | Faith +1
+45 | Dull           | Charisma -1               | 46 | Affable          | Charisma +1
+47 | Ugly           | Appearance -1             | 48 | Beautiful        | Appearance +1
+49 | Craven         | Bravery -1                | 50 | Fearless         | Bravery +1
+51 | Miserly        | Greed +1                  | 52 | Generous         | Greed -1
+53 | Narcissistic   | Selfishness +1            | 54 | Altruistic       | Selfishness -1
+55 | Wanton         | Lust +1                   | 56 | Chaste           | Lust -1
 57 | | | 58 | |
 59 | | | 60 | |
 61 | | | 62 | |

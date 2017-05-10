@@ -13,10 +13,10 @@ Odd|Trait|Description|Even|Trait|Description
 51 | Miserly        | Greed +1                  | 52 | Generous         | Greed -1
 53 | Narcissistic   | Selfishness +1            | 54 | Altruistic       | Selfishness -1
 55 | Wanton         | Lust +1                   | 56 | Chaste           | Lust -1
-57 | Weakness to Alcohol | Takes 1/2 alcohol normally required to get drunk, stays drunk twice as long, always has severe hang overs | 58 | Resistance to Alcohol | Takes twice alcohol nomrally required to get drunk, stays drunk half as long, never has hang overs
-59 |  | | 60 | |
-61 | | | 62 | |
-63 | | | 64 | |
+57 | Weakness to Alcohol | Takes 1/2 alcohol normally required to get drunk, stays drunk twice as long, always has severe hang overs (-1 to all checks the next day) | 58 | Resistance to Alcohol | Takes twice alcohol nomrally required to get drunk, stays drunk half as long, never has hang overs
+59 | Weakness to Infection | Highly ucceptible to illnesses and infection | 60 | Resistance to Allergens | Highly resistant to illnesses and infection
+61 | Poor eyesight | Agility -1; cannot read | 62 | Keen eyesight |
+63 | Poor hearing | Only hears loudest noises | 64 | Keen hearing | 50% chance to hear concealed enemies within 30 ft
 65 | | | 66 | |
 67 | | | 68 | |
 69 | | | 70 | |

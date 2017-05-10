@@ -13,13 +13,13 @@ Odd|Trait|Description|Even|Trait|Description
 51 | Miserly        | Greed +1                  | 52 | Generous         | Greed -1
 53 | Narcissistic   | Selfishness +1            | 54 | Altruistic       | Selfishness -1
 55 | Wanton         | Lust +1                   | 56 | Chaste           | Lust -1
-57 | Weakness to alcohol | Takes 1/2 alcohol normally required to get drunk, stays drunk twice as long, always has severe hang overs (-1 to all checks the next day) | 58 | Resistance to alcohol | Takes twice alcohol nomrally required to get drunk, stays drunk half as long, never has hang overs
-59 | Weakness to infection | Highly succeptible to illnesses and infection | 60 | Resistance to infection | Highly resistant to illnesses and infection
-61 | Weakness to pain | All damage received is considered doubled but only for the purposes of remaining conscious or resisting torture | 62 | Resistance to Pain | Takes half damage (round down) from all sources
+57 | Susceptibility to alcohol | Takes 1/2 alcohol normally required to get drunk, stays drunk twice as long, always has severe hang overs (-1 to all checks the next day) | 58 | Resistance to alcohol | Takes twice alcohol nomrally required to get drunk, stays drunk half as long, never has hang overs
+59 | Susceptibility to infection | Highly succeptible to illnesses and infection | 60 | Resistance to infection | Highly resistant to illnesses and infection
+61 | Susceptibility to pain | All damage received is considered doubled but only for the purposes of remaining conscious or resisting torture | 62 | Resistance to Pain | Takes half damage (round down) from all sources
 63 | Poor eyesight | Agility -1; cannot read | 64 | Keen eyesight | 50% chance to spot concealed things within 30 ft; immune to visual illusions
 65 | Poor hearing | Only hears loudest noises; never whispers | 66 | Keen hearing | 50% chance to hear concealed creatures within 30 ft; immune to auditory illusions
 67 | Poor smell | Only smells the strongest odors | 68 | Keen smell | 50% chance to smell concealed things with an odor within 30 ft
-69 | | | 70 | |
+69 | Insomnia | Fitful sleep; always tired; Endurance -1; difficult to surprise while sleeping | 70 | Gift of sleep | Able to easily sleep under any conditions; Endurance +1; easy to surprise while sleeping
 71 | | | 72 | |
 73 | | | 74 | |
 75 | | | 76 | |

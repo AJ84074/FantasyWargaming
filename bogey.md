@@ -34,4 +34,4 @@ Odd|Trait|Description|Even|Trait|Description
 93 |  |  | 94 |  |
 95 |  |  | 96 |  |
 97 | Wicked | Piety gains are halved | 98 | Pious | Piety gains are doubled
-99 | Superbad thing |  | 100 | Supergood thing |
+99 | Something Dreadful |  | 100 | Something Delightful |

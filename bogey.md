@@ -6,7 +6,7 @@ Odd|Trait|Description|Even|Trait|Description
 37 | Clumsy         | Agility -1                | 38 | Agile            | Agility +1
 39 | Sickly         | Endurance -1              | 40 | Healthy          | Endurance +1
 41 | Dim            | Intelligence -1           | 42 | Brilliant        | Intelligence +1
-43 | Faithless      | Faith -1                  | 44 | Faithful         | Faith +1
+43 | Faithless      | Faith -1                  | 44 | Faithful         | Faith +1; 
 45 | Shy            | Charisma -1               | 46 | Affable          | Charisma +1
 47 | Ugly           | Appearance -1             | 48 | Beautiful        | Appearance +1
 49 | Craven         | Bravery -1                | 50 | Fearless         | Bravery +1
@@ -23,7 +23,7 @@ Odd|Trait|Description|Even|Trait|Description
 69 | Insomnia | Endurance -1; fitful sleep; always tired; difficult to surprise while sleeping | 70 | Gift of sleep | Endurance +1; able to easily sleep under any conditions; easy to surprise while sleeping
 71 | Belligerent | Leadership -1; takes offense at any criticism | 72 | Born leader | Leadership +1; never takes offense
 73 | Weak mind | Always fails morale and control tests | 74 | Strong mind | Never fails morale or control tests
-77 | | | 78 | |
+77 | Bad luck | -1 on all luck rolls | 78 | Good luck | +1 on all luck rolls
 79 | | | 80 | |
 81 | | | 82 | |
 83 | | | 84 | |

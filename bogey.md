@@ -19,9 +19,9 @@ Odd|Trait|Description|Even|Trait|Description
 63 | Poor eyesight | Agility -1; cannot read | 64 | Keen eyesight | 50% chance to spot concealed things within 30 ft; immune to visual illusions
 65 | Poor hearing | Only hears loudest noises; never whispers | 66 | Keen hearing | 50% chance to hear concealed creatures within 30 ft; immune to auditory illusions
 67 | Poor smell | Only smells the strongest odors | 68 | Keen smell | 50% chance to smell concealed things with an odor within 30 ft
-69 | Insomnia | Fitful sleep; always tired; Endurance -1; difficult to surprise while sleeping | 70 | Gift of sleep | Able to easily sleep under any conditions; Endurance +1; easy to surprise while sleeping
-71 | | | 72 | |
-73 | | | 74 | |
+69 | Insomnia | Endurance -1; fitful sleep; always tired; difficult to surprise while sleeping | 70 | Gift of sleep | Endurance +1; able to easily sleep under any conditions; easy to surprise while sleeping
+71 | Belligerent | Leadership -1; takes offense at any criticism | 72 | Born leader | Leadership +1; never takes offense
+73 | Weak mind | Always fails morale and control tests | 74 | Strong mind | Never fails morale or control tests
 75 | | | 76 | |
 77 | | | 78 | |
 79 | | | 80 | |

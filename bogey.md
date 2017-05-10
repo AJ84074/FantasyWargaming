@@ -2,6 +2,12 @@
 
 Odd|Trait|Description|Even|Trait|Description
 -|-|-|-|-|-
+23 | Climb | | 24 | |
+25 | Ride | | 24 | |
+27 | Sing | | 24 | |
+29 | Steal | | 24 | |
+31 | Swim | | 24 | |
+33 | Track | | 24 | |
 35 | Weak           | Physique -1               | 36 | Strong           | Physique +1
 37 | Clumsy         | Agility -1                | 38 | Agile            | Agility +1
 39 | Sickly         | Endurance -1              | 40 | Healthy          | Endurance +1

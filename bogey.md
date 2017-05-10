@@ -5,14 +5,14 @@ Odd|Trait|Description|Even|Trait|Description
 35 | Weak           | Physique -1               | 36 | Strong           | Physique +1
 37 | Clumsy         | Agility -1                | 38 | Agile            | Agility +1
 39 | Sickly         | Endurance -1              | 40 | Healthy          | Endurance +1
-41 | Dim            | Intelligence -1           | 42 | Brilliant        | Intelligence +1
-43 | Faithless      | Faith -1                  | 44 | Faithful         | Faith +1; 
+41 | Dim            | Intelligence -1           | 42 | Sharp            | Intelligence +1
+43 | Faithless      | Faith -1                  | 44 | Faithful         | Faith +1
 45 | Shy            | Charisma -1               | 46 | Affable          | Charisma +1
 47 | Ugly           | Appearance -1             | 48 | Beautiful        | Appearance +1
-49 | Craven         | Bravery -1                | 50 | Fearless         | Bravery +1
-51 | Miserly        | Greed +1                  | 52 | Generous         | Greed -1
-53 | Narcissistic   | Selfishness +1            | 54 | Altruistic       | Selfishness -1
-55 | Wanton         | Lust +1                   | 56 | Chaste           | Lust -1
+49 | Craven         | Bravery -1; always fails Anger control tests                | 50 | Fearless         | Bravery +1; never fails Anger control tests
+51 | Miserly        | Greed +1; alwasy fails Greed control tests                  | 52 | Generous         | Greed -1; never fails Greed control tests
+53 | Narcissistic   | Selfishness +1; always fails Selfishness control tests            | 54 | Altruistic       | Selfishness -1; never fails Selfishness control tests
+55 | Wanton         | Lust +1; always fail Lust control tests | 56 | Chaste           | Lust -1; never fails Lust control tests
 57 | Susceptibility to alcohol | Takes 1/2 alcohol normally required to get drunk, stays drunk twice as long, always has severe hang overs (-1 to all checks the next day) | 58 | Resistance to alcohol | Takes twice alcohol nomrally required to get drunk, stays drunk half as long, never has hang overs
 75 | Susceptibility to fatigue | Takes half as long to get fatigued; takes twice as long to recover from fatigue | 76 | Resistance to fatigue | Takes twice as long to get fatgued; takes half as long to recover from fatigue
 59 | Susceptibility to infection | Highly succeptible to illnesses and infection | 60 | Resistance to infection | Highly resistant to illnesses and infection

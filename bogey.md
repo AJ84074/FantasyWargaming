@@ -1,6 +1,6 @@
 # Bogey Table
 
-Odd|Description|Even|Description
+Odd|Trait|Description|Even|Trait|Description
 -|-|-|-|-|-
 35 | | Physique -1        | 36 | | Physique +1
 37 | | Agility -1         | 38 | | Agility +1

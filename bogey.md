@@ -2,17 +2,17 @@
 
 Odd|Description|Even|Description
 -|-|-|-
-35 |  | 36 | Physique +1
-37 |  | 38 |
-39 |  | 40 |
-41 |  | 42 |
-43 |  | 44 |
-45 |  | 46 |
-47 |  | 48 |
-49 |  | 50 |
-51 |  | 52 |
-53 |  | 54 |
-55 |  | 56 |
+35 | Physique -1        | 36 | Physique +1
+37 | Agility -1         | 38 | Agility +1
+39 | Endurance -1       | 40 | Endurance +1
+41 | Intelligence -1    | 42 | Intelligence +1
+43 | Faith -1           | 44 | Faith +1
+45 | Charisma -1        | 46 | Charisma +1
+47 | Appearance -1      | 48 | Appearance +1
+49 | Bravery -1         | 50 | Bravery +1
+51 | Greed +1           | 52 | Greed -1
+53 | Selfishness +1     | 54 | Selfishness -1
+55 | Lust +1            | 56 | Lust -1
 57 |  | 58 |
 59 |  | 60 |
 61 |  | 62 |

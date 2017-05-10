@@ -13,7 +13,7 @@ Odd|Trait|Description|Even|Trait|Description
 51 | Miserly        | Greed +1                  | 52 | Generous         | Greed -1
 53 | Narcissistic   | Selfishness +1            | 54 | Altruistic       | Selfishness -1
 55 | Wanton         | Lust +1                   | 56 | Chaste           | Lust -1
-57 |                |                           | 58 |                  | 
+57 | Weakness to Alcohol | Takes 1/2 alcohol normally required to get drunk, stays drunk twice as long, always has severe hang overs | 58 | Resistance to Alcohol | Takes twice alcohol nomrally required to get drunk, stays drunk half as long, never has hang overs
 59 |  | | 60 | |
 61 | | | 62 | |
 63 | | | 64 | |

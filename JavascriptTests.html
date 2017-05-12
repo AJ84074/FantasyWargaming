@@ -99,9 +99,9 @@
 		var bogeys = [];
 		for(var i=0;i<3;i++) {
 			var r = die(1,100);
-			if (r>=bogey.length) {
+			if (r>=(100-bogey.length)) {
 				bogeyCount+=1;
-				document.writeln("<tr><td></td><td colspan=20>Bogeys " + bogeyCount +  " : " + bogey[r-35] + "</td></tr>");
+				document.writeln("<tr><td></td><td colspan=22>Bogey " + bogeyCount + " (" + r + ") : " + bogey[r-(100-bogey.length)] + "</td></tr>");
 			}
 		}
 	}

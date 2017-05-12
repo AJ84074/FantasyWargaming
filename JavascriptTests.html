@@ -93,15 +93,13 @@
 		formatAttr("Lust",lust);
 		document.writeln("<td>|</td>");
 		formatAttr("Bonus",bonus);
-		//document.writeln("<td>|</td>");
-		//formatAttr("Total",physique+agility+endurance+intelligence+faith+charisma+appearance+bravery+socialclass+greed+selfishness+lust+bonus);
 		var bogeyCount = 0;
 		var bogeys = [];
 		for(var i=0;i<3;i++) {
 			var r = die(1,100);
-			if (r>=(100-bogey.length)) {
+			if (r>=(100-bogey.length+1)) {
 				bogeyCount+=1;
-				document.writeln("<tr><td></td><td colspan=22>Bogey " + bogeyCount + " (" + r + ") : " + bogey[r-(100-bogey.length)] + "</td></tr>");
+				document.writeln("<tr><td></td><td colspan=22>Bogey " + bogeyCount + " (" + r + ") : " + bogey[r-(100-bogey.length+1)] + "</td></tr>");
 			}
 		}
 	}
@@ -150,6 +148,7 @@
 	}
 	
 	var bogey = [
+		"",
 		"Inept Climber : You can't climb, the best you can do is hold yourself in position",
 		"Talented Climber : +2 to all Climbing checks and you climb well",
 		"Inept Rider : You can't rind any animal, the best you can do is sit on a mount",
@@ -234,8 +233,8 @@
 		"Oracle : As long as you faithfullt serve a god or goddess you have been chosen as one of their oracles, you can answer any questions that prove you speak for your god or goddess, and the god or goddess automatically grants all miracles that further their prophecies",
 		"Persecuted : Something about you causes people to target you for verbal and physical violence, you are usually the go to target for verbal or physical abuse",
 		"Roll again 1d3 times",
-		"Something Abhorrent",
-		"Something Wonderful",
+		"Something Abhorrent (GM may or may not tell you)",
+		"Something Wonderful (GM may or may not tell you)"
 	];
 	</script>
 </body>

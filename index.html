@@ -1,11 +1,31 @@
 <html>
 <head>
 	<title>Fantasy Wargaming SRD</title>
+	<link href="styles/home.css" type="text/css" rel="stylesheet" />
+	<link href="styles/srd.css" type="text/css" rel="stylesheet" />
+	<style>
+    sup {
+        font-size: 8pt;
+    }
+    ul {
+        margin-left:20px;
+    }
+    li {
+        list-style-type: disc;
+    }
+    .nobility td {
+        padding:8px;
+    }
+    .nobility h4 {
+        margin-top:0px;
+    }
+    </style>
 	<style>
 	table, th, tr, td {
 		vertical-align: top;
+		font-size: 10pt;
 	}
-	.nobility {
+	.noble {
 		background-color: #CCFFCC;
 	}
 	.poorfree {
@@ -19,7 +39,9 @@
 	}
 	</style>
 </head>
-<body>
+<body style="padding-top:80px">
+<div id="header">
+</div>
 	<h1>Character Creation</h1>
 		<h2>Attributes</h2>
 			<p>
@@ -42,234 +64,213 @@
 				<li>Lust</li>
 			</ul>
 			<p>
-				<b>The maximum value for any attribute is 20, not counting points from any bogey.</b>
+				<b>The maximum value for any attribute is 20.</b>
+			</p>
+			<p>
+				The online random character generator is located <a href="fwcharacter.html">here</a>.
 			</p>
 		<h2>Social Class</h2>
 			<p>
-				Social class is rolled using 3d5 (not 3d6) for a range of 3 to 15.
+				Social class starts at 11.
 			</p>
-			<table>
+			<table style="padding:0px;border-collapse: separate;border-spacing:0px;">
 				<thead>
 					<th>Social<br/>Class</th>
 					<th>Landowning<br/>& Warrior<br/>classes</th>
 					<th>Priesthood</th>
 					<th>Urban Dwellers</th>
 					<th>Rural Dwellers</th>
-					<th>Cost in<br/>Silver coins<br/>to increase<br/>rank</th>
 				</thead>
 				<tbody>
-					<tr>
+					<tr class="odd">
 						<td>22</td>
-						<td class="nobility">Emperor / Empress</td>
-						<td class="nobility">Kai</td>
-						<td></td>
+						<td style="background-color: #CCFFCC;">Emperor / Empress</td>
+						<td style="background-color: #CCFFCC;">Kai</td>
 						<td></td>
 						<td></td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>21</td>
-						<td class="nobility">King / QUeen</td>
-						<td class="nobility"></td>
-						<td></td>
+						<td style="background-color: #CCFFCC;">King / Queen</td>
+						<td style="background-color: #CCFFCC;"></td>
 						<td></td>
 						<td></td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>20</td>
-						<td class="nobility">Archduke / Archduchess</td>
-						<td class="nobility">Hierophant</td>
-						<td></td>
+						<td style="background-color: #CCFFCC;">Archduke / Archduchess</td>
+						<td style="background-color: #CCFFCC;">Hierophant</td>
 						<td></td>
 						<td></td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>19</td>
-						<td class="nobility">Duke / Duchess</td>
-						<td class="nobility"></td>
-						<td></td>
+						<td style="background-color: #CCFFCC;">Duke / Duchess</td>
+						<td style="background-color: #CCFFCC;"></td>
 						<td></td>
 						<td></td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>18</td>
-						<td class="nobility">Count / Countess</td>
-						<td class="nobility">Archvedic</td>
-						<td></td>
+						<td style="background-color: #CCFFCC;">Count / Countess</td>
+						<td style="background-color: #CCFFCC;">Archvedic</td>
 						<td></td>
 						<td></td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>17</td>
-						<td class="nobility">Rich Baron / Baroness</td>
-						<td class="nobility">Vedic</td>
-						<td></td>
+						<td style="background-color: #CCFFCC;">Rich Baron / Baroness</td>
+						<td style="background-color: #CCFFCC;">Vedic</td>
 						<td></td>
 						<td></td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>16</td>
-						<td class="nobility">Poor Baron / Baroness, Rich Champion</td>
+						<td style="background-color: #CCFFCC;">Poor Baron / Baroness, Rich Champion</td>
 						<td>Legate</td>
 						<td>Mayor of a town</td>
 						<td></td>
-						<td></td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>15</td>
-						<td class="nobility">Poor Champion</td>
+						<td style="background-color: #CCFFCC;">Poor Champion</td>
 						<td>Archpriest</td>
 						<td>Guild leader (1)</td>
 						<td></td>
-						<td></td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>14</td>
 						<td>Landless Champion</td>
 						<td>Rich priest</td>
 						<td>Guild Member (1),<br/>Guild Leader (2)</td>
 						<td></td>
-						<td></td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>13</td>
 						<td>Captain</td>
 						<td>Priest</td>
 						<td>Guild Journeyman (1),<br/>Guild Member (2),<br/>Guild Leader (3)</td>
 						<td>Champion's agent in their absence</td>
-						<td></td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>12</td>
 						<td>Sergeant</td>
 						<td>Poor priest</td>
 						<td>Guild Journeyman (2),<br/>Guild Member (3),<br/>Self-employed trades person</td>
 						<td>Rich free person</td>
-						<td></td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>11</td>
 						<td>Soldier</td>
 						<td>Supplicant (free)</td>
 						<td>Guild Journeyman (3),<br/>employed skilled laborer</td>
 						<td>Poor free person</td>
-						<td></td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>10</td>
 						<td>Archer / Mercenary</td>
 						<td>Supplicant (free)</td>
 						<td>Employed laborer</td>
 						<td>Sokeman</td>
-						<td></td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>9</td>
-						<td class="unfree">Conscript peasant, militia / POW</td>
-						<td class="unfree">Supplicant (serf)</td>
-						<td class="poorfree">Servant</td>
-						<td class="poorfree">Rich villein</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;">Conscript peasant, militia / POW</td>
+						<td style="background-color: #CCCCCC;">Supplicant (serf)</td>
+						<td style="background-color: #EEEEEE;">Servant</td>
+						<td style="background-color: #EEEEEE;">Rich villein</td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>8</td>
-						<td class="unfree">Conscript peasant, militia / POW</td>
-						<td class="unfree">Supplicant (serf)</td>
-						<td class="poorfree">Unemployed</td>
-						<td class="poorfree">Poor villein</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;">Conscript peasant, militia / POW</td>
+						<td style="background-color: #CCCCCC;">Supplicant (serf)</td>
+						<td style="background-color: #EEEEEE;">Unemployed</td>
+						<td style="background-color: #EEEEEE;">Poor villein</td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>7</td>
-						<td class="unfree">Outlawed soldier</td>
-						<td class="unfree">Common serf</td>
-						<td class="poorfree">Thief</td>
-						<td class="unfree">Cottar (serf) / farm laborer</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;">Outlawed soldier</td>
+						<td style="background-color: #CCCCCC;">Common serf</td>
+						<td style="background-color: #EEEEEE;">Thief</td>
+						<td style="background-color: #CCCCCC;">Cottar (serf) / farm laborer</td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>6</td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="poorfree">Beggar</td>
-						<td class="unfree">Bordar (serf) / land laborer</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #EEEEEE;">Beggar</td>
+						<td style="background-color: #CCCCCC;">Bordar (serf) / land laborer</td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>5</td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="unfree">Recently escaped serf</td>
-						<td class="unfree">Outlaw / Forest dweller</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;">Recently escaped serf</td>
+						<td style="background-color: #CCCCCC;">Outlaw / Forest dweller</td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>4</td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="unfree">Recently escaped slave</td>
-						<td class="slave">Slave</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;">Recently escaped slave</td>
+						<td style="background-color: #FFCCCC;">Slave</td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>3</td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="slave">Slave</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #FFCCCC;">Slave</td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>2</td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="slave">Slave</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #FFCCCC;">Slave</td>
 					</tr>
-					<tr>
+					<tr class="even">
 						<td>1</td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="slave">Slave</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #FFCCCC;">Slave</td>
 					</tr>
-					<tr>
+					<tr class="odd">
 						<td>0</td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="unfree"></td>
-						<td class="slave">Slave</td>
-						<td></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #CCCCCC;"></td>
+						<td style="background-color: #FFCCCC;">Slave</td>
 					</tr>
 				</tbody>
 			</table>
 			<br/>
-			<table>
+			<table style="padding:0px;border-collapse: separate;border-spacing:0px;">
 				<tr>
 					<td>
 						Nobility
 					</td>
-					<td class="nobility" style="height:26px;width:26px;">
-						&nbsp;
+					<td style="background-color: #CCFFCC;">
+						&nbsp;&nbsp;&nbsp;&nbsp;
 					</td>
 					<td>
 						Poor Free
 					</td>
-					<td class="poorfree" style="height:26px;width:26px;">
-						&nbsp;
+					<td style="background-color: #EEEEEE;">
+						&nbsp;&nbsp;&nbsp;&nbsp;
 					</td>
 					<td>
 						Unfree
 					</td>
-					<td class="unfree" style="height:26px;width:26px;">
-						&nbsp;
+					<td style="background-color: #CCCCCC;">
+						&nbsp;&nbsp;&nbsp;&nbsp;
 					</td>
 					<td>
 						Slave
 					</td>
-					<td class="slave" style="height:26px;width:26px;">
-						&nbsp;
+					<td style="background-color: #FFCCCC;">
+						&nbsp;&nbsp;&nbsp;&nbsp;
 					</td>
 				</tr>
 			</table>
@@ -280,8 +281,579 @@
 			<h3>Stealing</h3>
 			<h3>Swiming</h3>
 			<h3>Tracking</h3>
-		<h2>Bogeys</h2>
+
 	<h1>Combat</h1>
+	<p>
+		During an adventure two elements usually remain constant, agility and physique.
+		If these are more than required to wield the weapon used in combat they count as <i><b>surplus</b></i> agility and physique.
+		This surplus will, however, be reduced by the encumberance factor of any weapon or other accoutrement not actually being used in the combat.
+		This means you should only carry what is absolutely necessary into battle.
+	</p>
+	<p>
+		To calculate surplus agility or physique, compare the character's basic factor (as amended by any encumberance) with that needed to wield the weapon effectively.
+		The difference counts as a surplus - but this number may be negative.
+		If it <i>is</i> negative, apply it absolutely.
+		If it is positive, halve it (round up) and apply.
+	</p>
+	<h2>Ranged Weapons</h2>
+	<p>
+		Take the character's adventurer level and add surplus agility, if any, and apply the following modifiers.
+	</p>
+	<table style="padding:0px;border-collapse: separate;border-spacing:0px;">
+		<tr>
+			<th>Size/Speed Factor</th>
+			<th>Bonus</th>
+		</tr>
+		<tr class="odd">
+			<td>Very large target</td>
+			<td>+2</td>
+		</tr>
+		<tr class="even">
+			<td>Very slow moving target</td>
+			<td>+2</td>
+		</tr>
+		<tr class="odd">
+			<td>Large target</td>
+			<td>+1</td>
+		</tr>
+		<tr class="even">
+			<td>Slow moving target</td>
+			<td>+1</td>
+		</tr>
+		<tr class="odd">
+			<td>Medium target</td>
+			<td>+0</td>
+		</tr>
+		<tr class="even">
+			<td>Medium moving target</td>
+			<td>+0</td>
+		</tr>
+		<tr class="odd">
+			<td>Small target</td>
+			<td>-2</td>
+		</tr>
+		<tr class="even">
+			<td>Fast moving target</td>
+			<td>-2</td>
+		</tr>
+		<tr class="odd">
+			<td>Tiny target</td>
+			<td>-4</td>
+		</tr>
+		<tr class="even">
+			<td>Very fast moving target</td>
+			<td>-4</td>
+		</tr>
+		<tr>
+			<th>Lighting Factor</th>
+			<th>Bonus</th>
+		</tr>
+		<tr class="odd">
+			<td>Very bright light</td>
+			<td>-2</td>
+		</tr>
+		<tr class="even">
+			<td>Bright light</td>
+			<td>+1</td>
+		</tr>
+		<tr class="odd">
+			<td>Normal light</td>
+			<td>+0</td>
+		</tr>
+		<tr class="even">
+			<td>Dim light</td>
+			<td>-2</td>
+		</tr>
+		<tr class="odd">
+			<td>Very dim light</td>
+			<td>-4</td>
+		</tr>
+		<tr class="even">
+			<td>Complete darkness</td>
+			<td>-8</td>
+		</tr>
+	</table>
+	<br/>
+
 	<h1>Magic</h1>
+
+	<h1>Piety</h1>
+	<p>
+	A character determines how quickly his Piety score increases (if at all) by observing religious strictures and obeying the wishes of his favored god or goddess. In this setting, observance cannot be assumed. Characters must maintain their observances. The gods are extremely fickle, and even if someone normally offers all of the appropriate forms, failing even once to show the proper respect can cause him to be cursed until he makes amends. Because of this, characters need to roleplay their observances and keep track of their Piety points. The Observances table provides a sample list of actions earning characters Piety points. Many of these actions can be performed only once per day, while others can be done multiple times. The Narrator should also keep track of each character's Piety points to make sure each player's records are accurate.
+	</p>
+	<p>
+	At the Narrator's discretion, the same observance earns more Piety if performed for every god rather than just for the character's favored god, and other times it is worth less. This depends on the nature of the observance. Libations should be offered to every god, because that shows respect for the entire pantheon. Dedicating a military victory to all the gods is too general; dedicating the conquest to your favored god is more specific and means more because you are showing that your devotions focus upon that deity.
+	</p>
+	
+	<h2>Piety Bands</h2>
+	<table style="padding:0px;border-collapse: separate;border-spacing:0px;">
+		<caption>Piety Band Table</caption>
+		<tbody>
+			<tr>
+				<th>PB</th>
+				<th>Piety Points</th>
+			</tr>
+			<tr class="odd">
+				<td>0</td>
+				<td>0-9</td>
+			</tr>
+			<tr class="even">
+				<td>1</td>
+				<td>10-39</td>
+			</tr>
+			<tr class="odd">
+				<td>2</td>
+				<td>40-79</td>
+			</tr>
+			<tr class="even">
+				<td>3</td>
+				<td>80-129</td>
+			</tr>
+			<tr class="odd">
+				<td>4</td>
+				<td>130-189</td>
+			</tr>
+			<tr class="even">
+				<td>5</td>
+				<td>190-259</td>
+			</tr>
+			<tr class="odd">
+				<td>6</td>
+				<td>260-339</td>
+			</tr>
+			<tr class="even">
+				<td>7</td>
+				<td>340-429</td>
+			</tr>
+			<tr class="odd">
+				<td>8</td>
+				<td>430-529</td>
+			</tr>
+			<tr class="even">
+				<td>9</td>
+				<td>530-639</td>
+			</tr>
+			<tr class="odd">
+				<td>10</td>
+				<td>640-759</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		Above PB 10, the width of each piety band is 10 greater than the width of the previous band (e.g., PB 11 spans 130 piety points).
+	</p>
+	
+		
+<table style="padding:0px;border-collapse: separate;border-spacing:0px;">
+	<caption>Observances Table</caption>
+	<tbody>
+		<tr>
+			<th>Observance</th>
+			<th>Piety Points Earned</th>
+		</tr>
+		<tr class="odd">
+			<td>Pouring libations to the character's favored god</td>
+			<td>1</td>
+		</tr>
+		<tr class="even">
+			<td>Pouring libations to all the gods</td>
+			<td>2</td>
+		</tr>
+		<tr class="odd">
+			<td>Sacrificing a heifer to a favored god</td>
+			<td>3</td>
+		</tr>
+		<tr class="even">
+			<td>Sacrificing heifers to all the gods</td>
+			<td>6</td>
+		</tr>
+		<tr class="odd">
+			<td>Sacrificing a hecatomb to a favored god</td>
+			<td>4</td>
+		</tr>
+		<tr class="even">
+			<td>Sacrificing a hecatomb to each of the gods</td>
+			<td>8</td>
+		</tr>
+		<tr class="odd">
+			<td>Offering thighmeat to a god before a meal</td>
+			<td>2</td>
+		</tr>
+		<tr class="even">
+			<td>Offering thighmeat to each of the gods before a meal</td>
+			<td>4</td>
+		</tr>
+		<tr class="odd">
+			<td>Sacrificing a maiden to a favored god</td>
+			<td>10</td>
+		</tr>
+		<tr class="even">
+			<td>Sacrificing a youth to a favored god</td>
+			<td>10</td>
+		</tr>
+		<tr class="odd">
+			<td>Dedicating a military victory to a favored god</td>
+			<td>15</td>
+		</tr>
+		<tr class="even">
+			<td>Dedicating a military victory to all the gods</td>
+			<td>5</td>
+		</tr>
+		<tr class="odd">
+			<td>Dedicating an individual combat to a favored god</td>
+			<td>10</td>
+		</tr>
+		<tr class="even">
+			<td>Building a shrine to a favored god</td>
+			<td>10</td>
+		</tr>
+		<tr class="odd">
+			<td>Building a shrine to all the gods</td>
+			<td>5</td>
+		</tr>
+		<tr class="even">
+			<td>Building a temple for a favored god</td>
+			<td>12</td>
+		</tr>
+		<tr class="odd">
+			<td>Building a temple to each of the gods</td>
+			<td>8</td>
+		</tr>
+		<tr class="even">
+			<td>Building/dedicating a boat to a favored god</td>
+			<td>10</td>
+		</tr>
+		<tr class="odd">
+			<td>Building/dedicating a boat to all the gods</td>
+			<td>8</td>
+		</tr>
+		<tr class="even">
+			<td>Building/dedicating a city to a favored god</td>
+			<td>15</td>
+		</tr>
+		<tr class="odd">
+			<td>Building/dedicating a city to all the gods</td>
+			<td>10</td>
+		</tr>
+		<tr class="even">
+			<td>Burning barley as an offering to a favored god</td>
+			<td>2</td>
+		</tr>
+		<tr class="odd">
+			<td>Burning barley as an offering to all the gods</td>
+			<td>4</td>
+		</tr>
+		<tr class="even">
+			<td>Treating a guest well</td>
+			<td>4</td>
+		</tr>
+		<tr class="odd">
+			<td>Treating a stranger well</td>
+			<td>2</td>
+		</tr>
+		<tr class="even">
+			<td>Treating a beggar well</td>
+			<td>3</td>
+		</tr>
+		<tr class="odd">
+			<td>Giving rich gifts to a guest</td>
+			<td>1</td>
+		</tr>
+		<tr class="even">
+			<td>Showing mercy to a foe</td>
+			<td>1</td>
+		</tr>
+		<tr class="odd">
+			<td>Showing respect to a priest</td>
+			<td>2</td>
+		</tr>
+		<tr class="even">
+			<td>Showing respect to a commander or king</td>
+			<td>1</td>
+		</tr>
+		<tr class="odd">
+			<td>Obeying a priest</td>
+			<td>2</td>
+		</tr>
+		<tr class="even">
+			<td>Offering a priest protection</td>
+			<td>4</td>
+		</tr>
+		<tr class="odd">
+			<td>Observing a god's holy day</td>
+			<td>1</td>
+		</tr>
+		<tr class="even">
+			<td>Attacking a god's enemies</td>
+			<td>2</td>
+		</tr>
+		<tr class="odd">
+			<td>Sparing a creature or plant sacred to a god</td>
+			<td>3</td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+
+
+<h2>Offerings</h2>
+<p>
+The gods demand constant attention and frequent proof of devotion in the form of libations, sacrifices, and other offerings. Priests or nobles generally proffer these offerings.
+</p>
+
+<h3>Libations</h3>
+<p>
+A libation consists of the mortal pouring wine out onto the ground in the gods' name. It symbolizes offering the god the first taste of wine (spilled because the gods do not physically arrive to accept it), which is a great honor. A full libation spills wine to each of the gods in turn, starting with Zeus, and then the mortal's favored god, and then to each of the others in order of age or rank. Libations are simple matters, and performed quickly, hence they are the most common of sacrifices. They do not cost a great deala?”only half a cup of wine is spilled in the ritual. Yet it pleases the gods because it shows proper respect.
+</p>
+
+<p>
+In some cases, a libation is made only to the individual's favored god. Th is usually occurs when someone else already offers libations to each god in turn, or when that god has clear dominance for the situation. For example, a blacksmith at work might pause to 1make libations only to Hephaestus, since he rules supreme in matters of the forge. When eating dinner, however, the blacksmith would off er libations to each of the gods, starting with Zeus, then Hephaestus, and then the rest.
+</p>
+
+<p>
+The quality of the wine does not matter for a libation, but it must be the same wine drunk by the hosts and guests. Offering a lesser wine to the gods insults them, just as offering a lesser wine to the guests insults to them.
+</p>
+
+<p>
+If wine is not available, the individual should off er libations of whatever he is drinking. Milk and honey are good substitutes. Even water is acceptable, if offered humbly.
+</p>
+
+<h3>Meat</h3>
+<p>
+After wine, the most common offering is meat. Offerings of meat are made to the gods before meals, giving them the first taste of meat just as the libation presents them with the first taste of wine. Just as with libations, these offerings do not have to be large. The most common technique is to take slices of thigh meat from the animal being cooked (usually a hog, a steer, or a sheep), fold them within layers of fat, and toss each wrapped morsel into the fire. If the flames consume the meat, the gods have accepted the offering and the meal can begin. As with libations, this offering is expected at every meal and should be the same meat as the host and guests eat.
+</p>
+
+
+
+<h2>Sacrifices</h2>
+<p>
+For larger events, and to win more favor from the gods, a mortal may sacrifice an entire animal. The method is similar to the one used above, but the entire carcass is tossed into the fire to show respect, including the animal's skin and bones. Sheep and goats are most often used. Larger animals, like oxen and hogs, serve as well, but more often when those creatures are offered, the worshipers sacrifice only the thigh meat to the flames, and the worshipers eat the rest.
+</p>
+
+<p>
+For truly massive undertakings, like the sailing of a fleet or the launching of an army, hecatombs are offered. These are sacrifices of 100 sheep or oxen called a Hecatomb. Hecatombs are reserved for the most momentous events, however, as when Odysseus offered them to the gods after his return to Ithaca to appease Poseidon's rage and make amends for killing the suitors in his own home.
+</p>
+
+<p>
+Nor are animals the only beasts sacrificed. For extreme insults, human lives are also spent. Agamemnon sacrificed his own daughter Iphigenia to satisfy Artemis and convince her to let the fleet leave the harbor and begin its trip to Troy. Achilles captured a dozen Trojan youths and sacrificed them over Patroclus' grave to honor his fallen kinsman and to demonstrate the high regard he had earned among the Achaean army. Human blood is potent, and should not be spilled in offering unless the life and death of thousands lies in the balance; the gods can be insulted if the offering overshadows the request it accompanies.
+</p>
+
+<h2>Other Offerings</h2>
+<p>
+In other cases, neither blood nor meat nor wine is required. Some sacrifices, particularly those made to the goddesses and those requesting love and happiness rather than power and success in battle, involve other materials. Hecuba, Priam's wife and the Queen of Troy, selected her most expensive robe and laid it upon Athena's altar, hoping the goddess would find the gift suitable to spare Troy. Grain also serves, either as part of an offering or as the offering itself; it was gathered while still in long stalks, and then tossed into the flames.
+</p>
+
+<p>
+Purity was an important part of an offering. Heifers never having calves, sheep never shorn, and lambs not yet with horns were all considered better than their older, more experienced counterparts, because by sacrificing these animals, who had not yet reached their prime, the worshiper gave up the animal as well as its potential. Item sacrifice is the same way. A costly robe never worn was better than one that had, just as grain that had not been cut was offered instead of grain that had already been threshed.
+</p>
+
+<p>
+Of course, not every offering was tangible. Warriors often dedicated victories to a particular god, just as bards might off er songs. Anything of value to the worshiper could be used to show respect to the gods. And if the gods considered the offering attractive and valuable, they might smile upon the worshiper, granting him gifts in return, such as victory, wealth, or happiness.
+</p>
+
+
+
+
+<h2>Sins</h2>
+<p>
+Sins reduce a person's Piety total. The Sins table provides a list of activities considered sinful in this setting. Some entries may seem strange to modern sensibilities. A GM can ignore or modify them if they seem too odd, although it is good to keep them, if only to remind the players that they are not playing in a modern milieu.
+</p>
+
+<p>
+The list also includes the Piety loss connected to the sin and the maximum punishment a sinner receives for sins that are also crimes. Public lashing is a public display where the character is whipped across the back. Fine and recompense means the sinner must not only replace the goods stolen or damaged, but must pay an extra amount depending on the severity of the crime. The other punishments are detailed in the sections following this one.
+</p>
+
+<p>
+Defending oneself or those unable to defend themselves incurs no Piety penalties, nor does killing someone in a time of war, nor any act committed at the direct behest of a deity. The only exception to this is killing a divine off springa?”even during war, the gods dislike seeing their children die and the act earns a minor penalty along with the displeasure of the dead character's divine parent.
+</p>
+
+<p>
+The gods are demanding, and insist every character maintain his observances, no matter where he is or what occurs. Failing to off er libations is a sin, even if the character is a guest in a home where the spilling of wine is a major offense. It is possible to be forced to sin, because no matter what the character does, it will off end someone. Th e gods use these situations as tests of the characters' devotion, and insist the sin be against a mortal rather than against them.
+</p>
+
+<table style="padding:0px;border-collapse: separate;border-spacing:0px;">
+	<caption> Sins Table</caption>
+	<tbody>
+		<tr>
+			<th>Sinful Offense</th>
+			<th>Piety</th>
+			<th>Punishment</th>
+		</tr>
+		<tr class="odd">
+			<td>Insulting a guest</td>
+			<td>-6</td>
+			<td>Severe contempt</td>
+		</tr>
+		<tr class="even">
+			<td>Insulting a beggar</td>
+			<td>-2</td>
+			<td>Contempt</td>
+		</tr>
+		<tr class="odd">
+			<td>Insulting your host</td>
+			<td>-4</td>
+			<td>Severe contempt</td>
+		</tr>
+		<tr class="even">
+			<td>Insulting a priest</td>
+			<td>-5</td>
+			<td>Contempt, Divine displeasure</td>
+		</tr>
+		<tr class="odd">
+			<td>Insulting a priest of your favored god</td>
+			<td>-8</td>
+			<td>Contempt, Divine displeasure</td>
+		</tr>
+		<tr class="even">
+			<td>Killing a priest</td>
+			<td>-15</td>
+			<td>Ostracism, Divine displeasure</td>
+		</tr>
+		<tr class="odd">
+			<td>Killing a guest</td>
+			<td>-10</td>
+			<td>Ostracism</td>
+		</tr>
+		<tr class="even">
+			<td>Killing a stranger for no reason</td>
+			<td>-10</td>
+			<td>Ostracism</td>
+		</tr>
+		<tr class="odd">
+			<td>Killing a beggar</td>
+			<td>-8</td>
+			<td>Public lashing, severe contempt</td>
+		</tr>
+		<tr class="even">
+			<td>Breaking your word</td>
+			<td>-8</td>
+			<td>Severe contempt</td>
+		</tr>
+		<tr class="odd">
+			<td>Offering libations to all the gods, but missing one</td>
+			<td>-4</td>
+			<td>Divine displeasure</td>
+		</tr>
+		<tr class="even">
+			<td>Offering sacrifices to all the gods, but missing one</td>
+			<td>-6</td>
+			<td>Divine displeasure</td>
+		</tr>
+		<tr class="odd">
+			<td>Offering barley to all the gods, but missing one</td>
+			<td>-2</td>
+			<td>Divine displeasure</td>
+		</tr>
+		<tr class="even">
+			<td>Comparing yourself to a god</td>
+			<td>-5</td>
+			<td>Divine displeasure</td>
+		</tr>
+		<tr class="odd">
+			<td>Claiming you are better than a god</td>
+			<td>-10</td>
+			<td>Divine displeasure</td>
+		</tr>
+		<tr class="even">
+			<td>Claiming you are better than a god at that god's best feature or ability</td>
+			<td>-15</td>
+			<td>Divine displeasure</td>
+		</tr>
+		<tr class="odd">
+			<td>Turning away a beggar</td>
+			<td>-2</td>
+			<td>Contempt</td>
+		</tr>
+		<tr class="even">
+			<td>Not performing proper rites for the dead</td>
+			<td>-4</td>
+			<td>Contempt</td>
+		</tr>
+		<tr class="odd">
+			<td>Killing a divine off spring</td>
+			<td>-1</td>
+			<td>Divine displeasure</td>
+		</tr>
+		<tr class="even">
+			<td>Murder</td>
+			<td>-5</td>
+			<td>Ostracism</td>
+		</tr>
+		<tr class="odd">
+			<td>Murder of king</td>
+			<td>-10</td>
+			<td>Death</td>
+		</tr>
+		<tr class="even">
+			<td>Theft</td>
+			<td>-3</td>
+			<td>Fine and recompense, contempt</td>
+		</tr>
+		<tr class="odd">
+			<td>Theft from a temple or shrine</td>
+			<td>-10</td>
+			<td>Fine and recompense, severe contempt, divine displeasure</td>
+		</tr>
+		<tr class="even">
+			<td>Vandalizing a temple or shrine</td>
+			<td>-15</td>
+			<td>Ostracism, divine displeasure</td>
+		</tr>
+		<tr class="odd">
+			<td>Lying</td>
+			<td>-1</td>
+			<td>Contempt</td>
+		</tr>
+		<tr class="even">
+			<td>Military desertion</td>
+			<td>-3</td>
+			<td>Public lashing, severe contempt</td>
+		</tr>
+		<tr class="odd">
+			<td>Failing to wash hands before making an offering</td>
+			<td>-1</td>
+			<td>Contempt</td>
+		</tr>
+		<tr class="even">
+			<td>Failing to bathe before performing a religious rite</td>
+			<td>-2</td>
+			<td>Contempt</td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+
+
+<h3>Contempt</h3>
+<p>
+Certain sins, while having no actual punishment, earn contempt for the character. Neighbors, friends, and even family disapprove of the character's actions, and find him lacking in honor and courage. This expresses itself as a a?“2 penalty to Charisma checks when dealing with anyone who knows the character or recognizes his name. Strangers who make a Gather Information check to denote status have either heard about this person and his actions or simply sense that he has done something inappropriate, and the Charisma penalty applies. Once the character's Piety score reaches 0 again, the Charisma penalty drops to a?“1. When the character has earned a Piety score of 4 or more, the penalty vanishes; he has now made amends to the gods, and demonstrated improved social behavior.
+</p>
+
+<p>
+Severe contempt works the same way as contempt, except that the penalty is a?“4, dropping to a?“2 when the character's Piety points reach 0 again, a?“1 when his Piety reaches 3, and 0 when he reaches a Piety of 6 or higher.
+</p>
+
+<h3>Ostracism</h3>
+<p>
+Some sins, like killing a guest, are so extreme and so dishonorable, mere contempt is not enough. The character is ostracized instead. No one who knows the character speaks to him or acknowledges him in any way; they will not sell items to him, and they will not stand aside to let him pass. It is as if the character had become a ghost, moving soundlessly through the world. Anyone meeting the character must make an Appraise check to denotes status. If the check succeeds, the person realizes the character has been ostracized, and they should ignore him. Anyone who recognizes this but acknowledges the character anyway receives contempt from everyone else who knows the character's status.
+</p>
+
+<p>
+Ostracism does not simply fade. Even after a character's Piety score returns to 0 or above, everyone still ignores him. The only way to overcome this and become a viable member of society again is to perform a major deed (something worth 5 or more Piety points), go on a quest, or accept exile (see below for details on these actions). The character gains no Piety points from these activities, but has paid his debt to society, and can interact again.
+</p>
+
+<p>
+Someone who, in the space of a week, commits three or more sins requiring ostracism is permanently ostracized. He can no longer live in the same kingdom because his name and deeds have spread everywhere. No act of Piety will restore him to acceptable social status. His only option is to seek out another land where no one has heard of him, and hope that no one recognizes him and tells his new neighbors of his ill deeds.
+</p>
+
+<h3>Divine Displeasure</h3>
+<p>
+Often, characters commit sins or crimes and receive no penalty from friends, family, and neighbors, but these actions may still displeasure the gods. When a character displeases one or more gods, the god or gods strike the character with a string of bad luck. This can range from minor misfortunes to utter disasters to the ruin of an entire nation.
+</p>
+
+<p>
+When someone's Piety drops to a?“10, he must make a DC 10 Piety check or receive divine displeasure from his god even if his specific sins do not list divine displeasure as a punishment. At every increment at a?“10, a new Piety check must be made. Divine displeasure accumulates until the character performs deeds to demonstrate his repentance. The gods instantly kill any character whose Piety score reaches a?“40, as the character's very existence off ends the gods.
+</p>
+
 </body>
 </html>

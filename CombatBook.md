@@ -1,19 +1,21 @@
-|Action   |C|Subaction|PG|XR|Mod|
-|---------|-|---------|--|--|---|
-|Down     |O|         |  |  |   |
-|Swing    |O|Smash    |  |  |   |
+|Action     |C|Subaction  |PG|XR|Mod|
+|-----------|-|-----------|--|--|---|
+|Down       |O|           |  |  |   |
+|Swing      |O|Smash      |  |  |   |
 |||||||
-|Side     |O|         |  |  |   |
-|Swing    |O|         |  |  |   |
-|         |O|         |  |  |   |
+|Side       |O|Strong     |  |  |   |
+|Swing      |R|High       |  |  |   |
+|           |B|Low        |  |  |   |
 |||||||
-|Down     |O|         |  |  |   |
-|Down     |O|         |  |  |   |
-|Down     |O|         |  |  |   |
-|Down     |O|         |  |  |   |
-|Down     |O|         |  |  |   |
-|Down     |O|         |  |  |   |
-|Down  |O|         |  |  |   |
+|Thrust     |R|High       |  |  |   |
+|           |B|Low        |  |  |   |
+|||||||
+|Fake       |R|High       |  |  |   |
+|           |B|Low        |  |  |   |
+|           |B|Side Swing |  |  |   |
+|           |R|Thrust     |  |  |   |
+|||||||
+|Defensive  |O|         |  |  |   |
 |Down  |O|         |  |  |   |
 |Down  |O|         |  |  |   |
 |Down  |O|         |  |  |   |

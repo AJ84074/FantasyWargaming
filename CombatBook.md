@@ -1,4 +1,4 @@
-|Action     |C|Subaction  |PG|XR|Mod|
+|Manuever   |C|Action     |PG|XR|Mod|
 |-----------|-|-----------|--|--|---|
 |Down       |O|           |  |  |   |
 |Swing      |O|Smash      |  |  |   |

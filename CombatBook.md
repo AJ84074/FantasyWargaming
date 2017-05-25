@@ -1,7 +1,7 @@
 |Manuever   |C|Action     |PG|XR|Mod|
 |-----------|-|-----------|--|--|---|
 |Down       |O|           |  |  |   |
-|Swing      |O|Smash      |  |  |   |
+|Swing      |O|Smash, Stab      |  |  |   |
 |||||||
 |Side       |O|Strong     |  |  |   |
 |Swing      |R|High       |  |  |   |
@@ -15,28 +15,28 @@
 |           |B|Side Swing |  |  |   |
 |           |R|Thrust     |  |  |   |
 |||||||
-|Defensive  |O|Down Swing |  |  |   |
-|Attacks    |B|Side Swing |  |  |   |
-|           |R|Thrust     |  |  |   |
+|Defensive Attacks  |O|Down Swing, , Cast Magic |  |  |   |
+|Magic / Powers    |B|Side Swing, Major Power |  |  |   |
+|Skills           |R|Thrust, Minor Power |  |  |   |
 |||||||
 |Special    |B|Kick       |  |  |   |
 |           |Y|Wild Swing |  |  |   |
 |           |B|Disarm     |  |  |   |
 |           |G|Retrieve   |  |  |   |
 |||||||
-|Shield     |G|High       |  |  |   |
-|Block      |G|Low        |  |  |   |
+|Shield Block |G|High, Minor       |  |  |   |
+|Magic Powers |G|Low, Minor        |  |  |   |
 |||||||
 |Move       |G|Jump Up    |  |  |   |
 |           |Y|Dodge      |  |  |   |
 |           |G|Duck       |  |  |   |
-|           |Y|Away       |  |  |   |
+|           |Y|Retreat to XR |  |  |   |
 |||||||
-|X-Range    |W|Charge     |  |  |   |
-|Attacks    |L|Dodge      |  |  |   |
-|           |L|Duck       |  |  |   |
-|           |W|Retreat    |  |  |   |
-|           |W|Jump Up    |  |  |   |
-|X-Range    |N|Dodge      |  |  |   |
-|Defenses   |N|Duck       |  |  |   |
-|           |N|Retreat    |  |  |   |
+|X-Range Attacks    |W|Charge     |  |  |   |
+|           |L|Swing High |  |  |   |
+|           |L|Swing Low  |  |  |   |
+|           |W|Thrust High, Thrust|  |  |   |
+|           |W|Thrust Low, Great Magic |  |  |   |
+|X-Range    |N|Block & Close|  |  |   |
+|Defenses   |N|Dodge      |  |  |   |
+|           |N|Jump Back  |  |  |   |

@@ -7,12 +7,23 @@
 ## Ger Root
 
 * Resistance to Pain
-* Resistance to Disease
+* Resistance to Infection
+* 3 extra bogeys
 * Born Leader
+* Gifted Adventurer
+* Strong Minded
 
 ## Swan
 
+* Keen Eyesight
+* Agile: +2 Agility
+* Sharp: +2 Intelligence
+
 ## Thistle
+
+* Agile: +2 
+* Talented Climber
+* Talented Tracker
 
 ## Ash
 

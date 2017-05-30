@@ -2,6 +2,8 @@
 
 ## Blood Moon
 
+* Atlantean
+
 ## Ger Root
 
 * Resistance to Pain

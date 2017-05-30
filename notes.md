@@ -27,6 +27,9 @@
 
 ## Ash
 
+* Strong: +2 Strength
+* Healthy: +2 Endurance
+
 ## Greyrock
 
-## 
+## Sunburn

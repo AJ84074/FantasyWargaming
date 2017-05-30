@@ -1,8 +1,11 @@
 # NPCs
 
-## Blood Moon
+## Gealach Foil
 
 * Atlantean
+
+Platinum blonde, lily white skin, petite nose, pearl white teeth, and vibrant bright blue eyes.
+She wears an Atlantean style silk top, pants, coat, and headdress with a veil.
 
 ## Ger Root
 

@@ -5,7 +5,7 @@
 * Atlantean
 
 Platinum blonde, lily white skin, petite nose, pearl white teeth, and vibrant bright blue eyes.
-She wears an Atlantean style silk top, pants, coat, and headdress with a veil.
+She wears an Atlantean style silk top, pants, coat, and headdress with a veil all in white.
 
 ## Ger Root
 

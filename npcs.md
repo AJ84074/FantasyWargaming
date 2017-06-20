@@ -37,8 +37,8 @@ Atlanteans are a now virtually extinct race of humans.
 It is said that they reached to far and too fast with their magic and technology and their civilization paid the ultimate price for their arrogance.
 In truth the annunaki/igigi feared the magic of the Atlanteans and destroyed their civiliation, lest they learn the truth and rise up against their tyrants.
 
-The Atlanteans practiced two forms of now lost magic: ballomancy and sonomancy.
-Through dance, songs, chants, and hums the Atlantean's changed the face of the world and the course of history.
+The Atlanteans practiced three forms of now lost magic: appellomancy, ballomancy, and sonomancy.
+Through dance, songs, chants, hums, and mere spoken words the Atlantean's changed the face of the world and the course of history.
 Although their magic is complex and takes at least several minutes to complete even the simplest of spells, the power and duration of their magic is unequalled. 
 
 * +4 Charisma, +4 Appearance< +4 Intelligence, +4 Faith, +4 Bravery

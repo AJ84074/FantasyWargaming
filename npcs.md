@@ -11,7 +11,7 @@ She wears multiple gold necklaces, bracelets, and anklets all decorated with orn
 Her rings and bracelets are all ornately crafted gold covered in strange writings and symbols (Atlantean).
 She wears no jewels or gemstones.
 
-Her voice is airy, silky, sweet, soothing, and rich in tone and those with great hearing will notice it sounds like her voice has a slight echo as if two nearly identical voices speaking at the same time.
+Her voice is soothing and gentle and those with great hearing will notice it sounds like her voice has a slight echo as if two nearly identical voices speaking at the same time.
 
 She speaks and reads all languages because Atlantean is the root of all other languages, but she is unable to teach anyone else her own language as only an Atlantean can learn it.
 

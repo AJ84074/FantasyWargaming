@@ -36,9 +36,11 @@ Ger Root is tall, althletic, and good looking. He is good natured but serious wi
 He is the leader of the Whistful Jackals.
 
 * Were-jackal
+* Artless Magician
+* Artless Miracleworker
+
 * Resistance to Pain
 * Resistance to Infection
-* 
 * 3 extra bogeys
 * Born Leader
 * Gifted Adventurer
@@ -47,6 +49,9 @@ He is the leader of the Whistful Jackals.
 ## Swan
 
 * Were-jackal
+* Artless Magician
+* Artless Miracleworker
+
 * Keen Eyesight
 * Agile: +2 Agility
 * Sharp: +2 Intelligence
@@ -54,15 +59,35 @@ He is the leader of the Whistful Jackals.
 ## Thistle
 
 * Were-jackal
-* Agile: +2 
+* Artless Magician
+* Artless Miracleworker
+
+* Agile: +2 Agility
 * Talented Climber
 * Talented Tracker
 
 ## Ash
+
+* Were-jackal
+* Artless Magician
+* Artless Miracleworker
 
 * Strong: +2 Strength
 * Healthy: +2 Endurance
 
 ## Greyrock
 
+* Were-jackal
+* Artless Magician
+* Artless Miracleworker
+
+* Good with animals
+
 ## Sunburn
+
+* Were-jackal
+* Artless Magician
+* Artless Miracleworker
+
+* Keen Smell
+* Agile: +2 Agility

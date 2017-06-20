@@ -28,11 +28,22 @@ She is the only, and last, of her kind.
 * Strong Minded
 * Inept Thief
 
+### Atlantean
+
+Atlanteans are a now virtually extinct race of humans.
+It is said that they reached to far and too fast with their magic and technology and their civilization paid the ultimate price for their arrogance.
+In truth the annunaki/igigi feared the magic of the Atlanteans and destroyed their civiliation, lest they learn the truth and rise up against their tyrants.
+
+The Atlanteans practiced two forms of now lost magic: ballomancy and sonomancy.
+Through dance, songs, chants, and hums the Atlantean's changed the face of the world and the course of history.
+Although their magic is complex and takes at least several minutes to complete even the simplest of spells, the power and duration of their magic is unequalled. 
+
 ## The Whistful Jackals
 
 The Whistful Jackals are a mercenary company made up primarily of were-jackals.
-They have never included anyone that they didn't intend on "adopting" into the family until they suddenly had access to both a sorceress and a priest.
-They know that they cannot turn either of them but they also now don't want them to know their secret.
+They have never included anyone that they didn't intend on "adopting" into the family until they suddenly had access a sorceress, priest, and scholar.
+They know that they cannot turn the sorceress, even if they could turn her friends.
+They also do not wish to condem others to their fate unless there are precious few other options.
 
 ## Ger Root
 

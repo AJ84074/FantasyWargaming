@@ -24,9 +24,9 @@ Igigi take the form of beautiful and perfect people that can show and hide their
 Lilitu take the form of beautiful, yet exotic looking, people that can show and hide their skin color (blood red), eye color (bright yellow dual pupil or solid black), wings (leathery dark blood red), tails, fangs, claws (dark blood red), and horns (black) at will.
 
 * Fly at will.
-* Inv
+* Invisibility at will which drops of they cast spells or interact with their environment.
 * Speak, read, and write all languages.
-* See and hear anything within 1km per level when they focus their attention.
+* See and hear anything within 10m per level when they focus their attention.
 * Their weapons spring into being as needed, do 1d6 unholy damage per level, and cannot be damaged, broken, disarmed, destroyed, or targeted as objects.
 * They receive 1d6 damage protection per level.
 

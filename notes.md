@@ -14,9 +14,11 @@ She wears no jewels or gemstones.
 
 Her voice is airy, silky, sweet, soothing, and rich in tone and those with great hearing will notice it sounds like her voice has a slight echo as if two nearly identical voices speaking at the same time.
 
-She speaks and reads all languages because Atlantean is the root of all other languages, but she is unable to teach anyone else her own language.
+She speaks and reads all languages because Atlantean is the root of all other languages, but she is unable to teach anyone else her own language as only an Atlantean can learn it.
 
 Gaelach Foil was spared the destruction of her people because at the time she was imprisoned far away in a magical tomb.
+
+She is the only, and last, of her kind.
 
 * Atlantean - +4 Charisma, +4 Appearance, +4 Intelligence, +4 Faith, +4 Bravery, Immortal
 * Keen Hearing

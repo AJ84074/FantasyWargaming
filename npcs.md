@@ -24,7 +24,7 @@ She is currently attempting to bring about a new idea to the world: a kingdom. A
 
 She is the only, and last, of her kind.
 
-* Atlantean - +4 Charisma, +4 Appearance, +4 Intelligence, +4 Faith, +4 Bravery, Immortal
+* Atlantean - +4 Charisma, +4 Appearance, +4 Intelligence, +4 Faith, +4 Bravery, Immortal, Dark Vision
 * Keen Hearing
 * Keen Eyesight
 * 2 extra bogeys
@@ -40,6 +40,11 @@ In truth the annunaki/igigi feared the magic of the Atlanteans and destroyed the
 The Atlanteans practiced two forms of now lost magic: ballomancy and sonomancy.
 Through dance, songs, chants, and hums the Atlantean's changed the face of the world and the course of history.
 Although their magic is complex and takes at least several minutes to complete even the simplest of spells, the power and duration of their magic is unequalled. 
+
+* +4 Charisma, +4 Appearance< +4 Intelligence, +4 Faith, +4 Bravery
+* Immortal
+* May choose any 2 attributes to have a maximum of 24 instead of 20.
+* Dark vision - may see even in total or magical darkness
 
 ## The Whistful Jackals
 

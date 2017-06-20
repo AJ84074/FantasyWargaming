@@ -1,6 +1,6 @@
 # NPCs
 
-## Gealach Foil
+## Gealach Foil - Patron of the Whistful Jackals
 
 Gealach Foil (GYAL-akh fwill) is striking in appearance with her long thick strait platinum blonde hair, lily white skin, rose red lips, petite nose, pearl white teeth, high cheek bones, and vibrant bright golden eyes that glow faintly in complete darkness and fiercely bright when she experiences intense emotions.
 
@@ -53,7 +53,9 @@ They have never included anyone that they didn't intend on "adopting" into the f
 They know that they cannot turn the sorceress, even if they could turn her friends.
 They also do not wish to condem others to their fate unless there are precious few other options.
 
-## Ger Root
+## Zukal - Gaelach Foil's Bodyguard
+
+## Ger Root - Mercenary Captain of the Whistful Jackals
 
 Ger Root is tall, althletic, and good looking. He is good natured but serious without being overly stern or oppresive. He is very selective of his 
 

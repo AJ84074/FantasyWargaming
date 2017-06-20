@@ -59,3 +59,13 @@ Lilitu take the form of beautiful, yet exotic looking, people that can show and 
 * The bound entity has the ability to cast any spell it knows at the normal mana cost (1.5 x DD of spell) and the link is automatic.
 * If the bound entity runs our of mana or no longer has enough mana to fully cast any of its spells it is released.
 * If the bound entity is released, was forcibly bound, and has enough mana left to cast at least one spell it knows, it will attempt to kill the binder if it believes it has reasonable a chance to be successful.
+
+### Tool Binding
+
+* The entity is bound into a specific tool or object.
+* The bound entity stores 32 mana per level.
+* The bound entity grants +1 bonus to relevant rolls for each level it possesses.
+* The bound entity grants the ability to relevant passive magic (divinations) spells at the normal mana costs (1.5 DD of spell) and the link is automatic. 
+* If the bound entity runs our of mana or no longer has enough mana to fully cast any of its spells it is released.
+* If the tool or object binding the entity is broken or destroyed the bound entity is released. 
+* If the bound entity is released, was forcibly bound, and has enough mana left to cast at least one spell it knows, it will attempt to kill the binder if it believes it has reasonable a chance to be successful.

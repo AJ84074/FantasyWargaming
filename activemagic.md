@@ -6,6 +6,30 @@
 
 The bound entity is physically manifest in a form appropriate to its type (igigi, lilitu, air, earth, fire, water).
 
+* Manifest entities possess 32 mana per level.
+* Manifest entities can regain mana normally, but sometimes this is specific to the type of entity.
+
+#### Igigi
+
+Igigi take the form of beautiful and perfect people that can show and hide their wings (feathered white, brown, or black) at will.
+
+* Igigi can fly and teleport at will.
+* Igigi speak, read, and write all languages.
+* Igigi can see and hear anything within 1km per level when they focus their attention.
+* Their weapons spring into being as needed, do 1d6 holy damage per level, and cannot be damaged, broken, disarmed, destroyed, or targeted as objects.
+* They receive 1d6 damage protection per level.
+
+#### Lilitu
+
+Lilitu take the form of beautiful, yet exotic looking, people that can show and hide their skin color (blood red), eye color (bright yellow dual pupil or solid black), wings (leathery dark blood red), tails, fangs, claws (dark blood red), and horns (black) at will.
+
+* Fly at will.
+* Inv
+* Speak, read, and write all languages.
+* See and hear anything within 1km per level when they focus their attention.
+* Their weapons spring into being as needed, do 1d6 unholy damage per level, and cannot be damaged, broken, disarmed, destroyed, or targeted as objects.
+* They receive 1d6 damage protection per level.
+
 ### Weapon Binding
 
 * The bound entity is bound to a specific weapon.

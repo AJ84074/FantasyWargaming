@@ -42,7 +42,6 @@ He is the leader of the Whistful Jackals.
 
 * Were-jackal
 * Artless Magician
-* Artless Miracleworker
 
 * Resistance to Pain
 * Resistance to Infection
@@ -55,7 +54,6 @@ He is the leader of the Whistful Jackals.
 
 * Were-jackal
 * Artless Magician
-* Artless Miracleworker
 
 * Keen Eyesight
 * Agile: +2 Agility
@@ -65,7 +63,6 @@ He is the leader of the Whistful Jackals.
 
 * Were-jackal
 * Artless Magician
-* Artless Miracleworker
 
 * Agile: +2 Agility
 * Talented Climber
@@ -75,7 +72,6 @@ He is the leader of the Whistful Jackals.
 
 * Were-jackal
 * Artless Magician
-* Artless Miracleworker
 
 * Strong: +2 Strength
 * Healthy: +2 Endurance
@@ -84,7 +80,6 @@ He is the leader of the Whistful Jackals.
 
 * Were-jackal
 * Artless Magician
-* Artless Miracleworker
 
 * Good with animals
 
@@ -92,7 +87,6 @@ He is the leader of the Whistful Jackals.
 
 * Were-jackal
 * Artless Magician
-* Artless Miracleworker
 
 * Keen Smell
 * Agile: +2 Agility

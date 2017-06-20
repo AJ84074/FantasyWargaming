@@ -29,6 +29,12 @@ She is the only, and last, of her kind.
 * Strong Minded
 * Inept Thief
 
+## The Whistful Jackals
+
+The Whistful Jackals are a mercenary company made up primarily of were-jackals.
+They have never included anyone that they didn't intend on "adopting" into the family until they suddenly had access to both a sorceress and a priest.
+They know that they cannot turn either of them but they also now don't want them to know their secret.
+
 ## Ger Root
 
 Ger Root is tall, althletic, and good looking. He is good natured but serious without being overly stern or oppresive. He is very selective of his 

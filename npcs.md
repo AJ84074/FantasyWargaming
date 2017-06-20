@@ -55,6 +55,10 @@ They also do not wish to condem others to their fate unless there are precious f
 
 ## Zukal - Gaelach Foil's Bodyguard
 
+20th Adventurer
++10 Parry Melee
++10 Block Ranged
+
 ## Ger Root - Mercenary Captain of the Whistful Jackals
 
 Ger Root is tall, althletic, and good looking. He is good natured but serious without being overly stern or oppresive. He is very selective of his 

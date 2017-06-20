@@ -1,2 +1,2 @@
 # FantasyWargaming
-Update to the old Fantasy Wargaming rules by Bruce Galloway
+Updates and modernization to the old Fantasy Wargaming rules by Bruce Galloway

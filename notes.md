@@ -18,6 +18,8 @@ She speaks and reads all languages because Atlantean is the root of all other la
 
 Gaelach Foil was spared the destruction of her people because at the time she was imprisoned far away in a magical tomb.
 
+She is currently attempting to bring about a new idea to the world: a kingdom. All of her work and effort is to bring about the creation of a kingdom of city states under the rule of one leader so that she can unite humanity can against the tyranny of the annunaki/igigi. 
+
 She is the only, and last, of her kind.
 
 * Atlantean - +4 Charisma, +4 Appearance, +4 Intelligence, +4 Faith, +4 Bravery, Immortal
@@ -29,8 +31,14 @@ She is the only, and last, of her kind.
 
 ## Ger Root
 
+Ger Root is tall, althletic, and good looking. He is good natured but serious without being overly stern or oppresive. He is very selective of his 
+
+He is the leader of the Whistful Jackals.
+
+* Were-jackal
 * Resistance to Pain
 * Resistance to Infection
+* 
 * 3 extra bogeys
 * Born Leader
 * Gifted Adventurer
@@ -38,12 +46,14 @@ She is the only, and last, of her kind.
 
 ## Swan
 
+* Were-jackal
 * Keen Eyesight
 * Agile: +2 Agility
 * Sharp: +2 Intelligence
 
 ## Thistle
 
+* Were-jackal
 * Agile: +2 
 * Talented Climber
 * Talented Tracker

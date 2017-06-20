@@ -13,9 +13,9 @@ The bound entity is physically manifest in a form appropriate to its type (igigi
 
 Igigi take the form of beautiful and perfect people that can show and hide their wings (feathered white, brown, or black) at will.
 
-* Igigi can fly and teleport at will.
-* Igigi speak, read, and write all languages.
-* Igigi can see and hear anything within 1km per level when they focus their attention.
+* Fly and teleport at will.
+* Speak, read, and write all languages.
+* See and hear anything within 1km per level when they focus their attention.
 * Their weapons spring into being as needed, do 1d6 holy damage per level, and cannot be damaged, broken, disarmed, destroyed, or targeted as objects.
 * They receive 1d6 damage protection per level.
 

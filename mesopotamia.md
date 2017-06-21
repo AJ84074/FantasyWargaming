@@ -172,3 +172,17 @@ This is only some of them. There are thousands.
 * Rabisu - an evil vampiric spirit
 * Šulak the bathroom demon, “lurker” in the bathroom
 * Zu - divine storm-bird and the personification of the southern wind and the thunder clouds
+
+# Legendary beasts
+* Battle Bison beast - one of the creatures slain by Ninurta
+* Bašmu, “Venomous Snake”
+* Ušumgallu, “Great Dragon”
+* Mušmaḫḫū, “Exalted Serpent”
+* Mušḫuššu, “Furious Snake”
+* Laḫmu, the “Hairy One”
+* Ugallu, the “Big Weather-Beast”
+* Uridimmu, “Mad Lion”
+* Girtablullû, “Scorpion-Man”
+* Umū dabrūtu, “Violent Storms”
+* Kulullû, “Fish-Man”
+* Kusarikku, “Bull-Man”

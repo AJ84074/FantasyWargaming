@@ -46,18 +46,48 @@ Although their magic is complex and takes at least several minutes to complete e
 * May choose any 2 attributes to have a maximum of 24 instead of 20.
 * Dark vision - may see even in total or magical darkness
 
+## Zukal - Gaelach Foil's Bodyguard - Deva Asura
+
+* Deva
+* 20th Adventurer
+* Magic Saving Throw as 20th Magical
+* +10 Parry Melee
+* +10 Block Ranged
+
 ## The Whistful Jackals
 
-The Whistful Jackals are a mercenary company made up primarily of were-jackals.
-They have never included anyone that they didn't intend on "adopting" into the family until they suddenly had access a sorceress, priest, and scholar.
-They know that they cannot turn the sorceress, even if they could turn her friends.
-They also do not wish to condem others to their fate unless there are precious few other options.
+The Whistful Jackals are a mercenary company made up primarily of werelions.
+They normally never included magical or religious members as they can use magic to identify them as werelions and usualy become hostile toward them.
 
-## Zukal - Gaelach Foil's Bodyguard
+### Werelions
 
-20th Adventurer
-+10 Parry Melee
-+10 Block Ranged
+Werelions are created when someone is looked in the eye by the great sphinx Ankhetperure.
+
+The Whistful Jackals are a mercenary group who once travelled to the great delta of northern Khemti in search of fame and fortune.
+They were tricked into attempting to steal treasure from the great sphinx Ankhetperure.
+The sphinx immediately knew that it was their employers intent to steal from her so she looked each member of the Whistful Jackals directly in the eye and then commanded them to return to their employer with the treasure.
+Once in their employer's presence, they immediately transformed into werelions and ate him and his entire household.
+Horrified by what they had done they sought out the sphinx in hopes of removing the curse.
+
+When they eventually found the Ankhetperure again, she told them that this was to be their punishment for a thousand years and that whosoever discovers their secret will be slain by them with their own fangs and claws.
+
+Some great time later, after years of loneliness, Thistle met an Akkadian man named Rhul Utek.
+She tried to ignore her budding feelings and tried to take it very slowly, but soon fell deeply in love.
+The rest of the band, cautious but also lonely themselves, welcomed him into their company and their lives.
+They were married after a brief courtship and they spent the next year together happily travelling from battle to battle.
+One night when on night patrol Rhul Utek happened upon pride of lions killing enemy soldiers in the dead of night.
+He followed them expertly, using mud to mask his scent, hoping to find one alone so he could kill it as a trophy for Thistle.
+As he followed them they moved away from the battle for some distance before painfully transforming into terrifying beasts and then finally into naked men and women.
+His horror turned to heartbreak as he quickly realized these monsters were members of his mercenary family and his beloved wife was among them.
+He quickly and quitely returned to his partol and eventually to his mercenary company the following morning.
+
+He remained quiet throughout the day and made every effort to hide the fact that he knew his mercenary family and wife were monsters.
+That evening in their tent Thistle was particularly aroused and affectionate, refusing to take accept his rebuttals.
+Eventually he relented and they shared the most intensely passionate lovemaking session he had ever experienced.
+He was completely exhausted by her  
+
+
+
 
 ## Ger Root - Mercenary Captain of the Whistful Jackals
 
@@ -65,7 +95,7 @@ Ger Root is tall, althletic, and good looking. He is good natured but serious wi
 
 He is the leader of the Whistful Jackals.
 
-* Were-jackal
+* Werelion
 * Artless Magician
 
 * Resistance to Pain
@@ -77,7 +107,7 @@ He is the leader of the Whistful Jackals.
 
 ## Swan
 
-* Were-jackal
+* Werejackal
 * Artless Magician
 
 * Keen Eyesight
@@ -86,7 +116,7 @@ He is the leader of the Whistful Jackals.
 
 ## Thistle
 
-* Were-jackal
+* Werejackal
 * Artless Magician
 
 * Agile: +2 Agility
@@ -95,7 +125,7 @@ He is the leader of the Whistful Jackals.
 
 ## Ash
 
-* Were-jackal
+* Werejackal
 * Artless Magician
 
 * Strong: +2 Strength
@@ -103,14 +133,14 @@ He is the leader of the Whistful Jackals.
 
 ## Greyrock
 
-* Were-jackal
+* Werejackal
 * Artless Magician
 
 * Good with animals
 
 ## Sunburn
 
-* Were-jackal
+* Werejackal
 * Artless Magician
 
 * Keen Smell

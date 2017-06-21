@@ -138,13 +138,13 @@ This is only some of them. There are thousands.
 * Zaqar - messenger of Sin who relays communication through dreams and nightmares
 
 # Primordial beings
-* Abzu - the Ocean Below, the name for fresh water from underground aquifers; depicted as a deity only in the Babylonian creation epic Enûma Eliš
+* Abzu - the Ocean Below, the name for fresh water from underground aquifers
 * Anshar - god of the sky and male principle
 * Kishar - goddess of the earth and female principle
 * Kur - the first dragon, born of Abzu and Ma. Also Kur-gal, or Ki-gal the underworld
 * Lahamu - first-born daughter of Abzu and Tiamat
 * Lahmu - first-born son of Abzu and Tiamat; a protective and beneficent deity
-* Ma -primordial goddess of the earth
+* Ma - primordial goddess of the earth
 * Mummu - god of crafts and technical skill
 * Tiamat - primordial goddess of the ocean
 

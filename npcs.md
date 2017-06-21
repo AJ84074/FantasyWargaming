@@ -6,6 +6,7 @@ Gealach Foil (GYAL-akh fwill) is striking in appearance with her long thick stra
 
 Her clothing is of a strange style (Atlantean) and she wears a body hugging silk suit covered by a large billowing loose fitting silk covering over her entire body, plus long silk lace gloves, silk lace stockings, and a silk headdress with a veil. Her shoes are silk sandals or calf high silk boots. The color of all her clothing is a light cream color.
 She usually wears her hair in a long black silk bag to make it appear, under her other silks, that her hair is black.  
+
 None of her skin is directly visible under her veil, gloves, and stockings and the cream color of her silk and lace give the impression that her skin is light tan in color.
 She makes all of her own clothing and raises her own silk worms.
 Her primary income is from the silk of her silk worm farms, whose production is increased using her Atlantean magic.

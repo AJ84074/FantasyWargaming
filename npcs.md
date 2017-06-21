@@ -69,7 +69,7 @@ The sphinx immediately knew that it was their employers intent to steal from her
 Once in their employer's presence, they immediately transformed into werelions and ate him and his entire household.
 Horrified by what they had done they sought out the sphinx in hopes of removing the curse.
 
-When they eventually found the Ankhetperure again, she told them that this was to be their punishment for a thousand years and that whosoever discovers their secret will be slain by them with their own fangs and claws.
+When they eventually found the Ankhetperure again, she told them that this was to be their punishment for a thousand years and that whosoever they love that discovers their secret will be slain and eaten by them with their own fangs and claws.
 
 Some great time later, after years of loneliness, Thistle met an Akkadian man named Rhul Utek.
 She tried to ignore her budding feelings and tried to take it very slowly, but soon fell deeply in love.
@@ -84,10 +84,13 @@ He quickly and quitely returned to his partol and eventually to his mercenary co
 He remained quiet throughout the day and made every effort to hide the fact that he knew his mercenary family and wife were monsters.
 That evening in their tent Thistle was particularly aroused and affectionate, refusing to take accept his rebuttals.
 Eventually he relented and they shared the most intensely passionate lovemaking session he had ever experienced.
-He was completely exhausted by her  
+He was completely exhausted by their lovemaking and resolved to tell her in the morning that he knew her secret, that it didn't matter, and that he would continue to love her and stay with her and help her find a cure if that were even possible.
+He slept more soundly and deeply than he had ever slept before.
 
+During the night Thistle transformed and killed and ate his lungs, stomach, liver, and intestines.
+When she woke up covered in blood she ran out of her tent naked, panicked, and sobbing.
 
-
+It was some great time later before anyone in the company ever attempted a relationship again, and those relationships would remain mere trists and paid encounters. 
 
 ## Ger Root - Mercenary Captain of the Whistful Jackals
 

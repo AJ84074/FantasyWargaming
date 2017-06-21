@@ -70,7 +70,7 @@ The sphinx immediately knew that it was their employers intent to steal from her
 Once in their employer's presence, they immediately transformed into werelions and ate him and his entire household.
 Horrified by what they had done they sought out the sphinx in hopes of removing the curse.
 
-When they eventually found the Ankhetperure again, she told them that this was to be their punishment for a thousand years and that whosoever they love that discovers their secret will be slain and eaten by them with their own fangs and claws.
+When they eventually found Ankhetperure again, she told them that this was to be their punishment for a thousand years and that whosoever they love that discovers their secret will be slain and eaten by them with their own fangs and claws.
 
 Some great time later, after years of loneliness, Thistle met an Akkadian man named Rhul Utek.
 She tried to ignore her budding feelings and tried to take it very slowly, but soon fell deeply in love.

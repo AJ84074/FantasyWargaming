@@ -1,3 +1,7 @@
+# City States 
+
+Eventually Sumer was unified by Eannatum, but the unification was tenuous and failed to last as the Akkadians conquered Sumeria in 2331 BC only a generation later. The Akkadian Empire was the first successful empire to last beyond a generation and see the peaceful succession of kings. The empire was relatively short-lived, as the Babylonians conquered them within only a few generations.
+
 ## Sumerians
 ## Akkadians
 ## Assyrians

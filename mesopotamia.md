@@ -4,6 +4,10 @@ Eventually Sumer was unified by Eannatum, but the unification was tenuous and fa
 
 Eannatum was a Sumerian king of Lagash. One inscription found on a boulder states that Eannatum was his Sumerian name, while his "Tidnu" (Amorite) name was Lumma.
 
+Conquest of Sumer
+
+Eannatum, grandson of Ur-Nanshe, was a king of Lagash who conquered all of Sumer, including Ur, Nippur, Akshak (controlled by Zuzu), Larsa, and Uruk (controlled by Enshakushanna, who is on the King List). He also annexed the kingdom of Kish, which regained its independence after his death. He made Umma a tributary, where every person had to pay a certain amount of grain into the treasury of the goddess Nina and the god Ingurisa, after personally commanding an army to subjugate the city.
+
 ## Sumerians
 ## Akkadians
 ## Assyrians

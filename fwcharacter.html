@@ -6,22 +6,12 @@
 	<style>body,table,tr,td,input{font:normal 9pt Tahoma;}</style>
 	<input type="text" id="player" value=""><br>
 	<br>
-	<input type="submit" value="Submit" onclick="createRolls3();return null;"><br>
+	<input type="submit" value="Submit" onclick="createRolls();return null;"><br>
 	<script>
 	var rolls = 0;
-	var numDice = 0;
-
-	function createRolls3() {
-		numDice = 3;
-		createRolls();
-	}
-
-	function createRolls4() {
-		numDice = 4;
-		createRolls();
-	}
 
 	function createRolls() {
+		var numSets=1;
 		rolls+=1;
 		var player = document.getElementById("player").value;
 		document.body.innerHTML = "";
@@ -31,8 +21,8 @@
 		document.writeln("<br/>");
 		document.writeln("<input type='submit' value='Submit (Tries : " + rolls + ")' onclick='createRolls();return null;'/><br/>");
 		document.writeln("<br/>");
-		document.writeln("<table border='0' cellpadding='4' cellspacing='0'>");
-		for(var i=1;i<=1;i++) {
+		document.writeln("<table border='0' cellpadding='4' cellspacing='0' style='width:100%;'>");
+		for(var i=1;i<=numSets;i++) {
 			document.writeln("<tr style='background-color:" + background(i) + "'>");
 			document.writeln("<td>"+i+"</td>");
 			rollAttrSet();
@@ -52,7 +42,7 @@
 	}
 
 	function background(n) {
-		return n % 2 == 0 ? "#FFFFFF" : "#F0F0F0"; 
+		return n % 2 == 0 ? "#F0F0F0" : "#FFFFCC"; 
 	}
 
 	function rollAttrSet() {
@@ -141,6 +131,7 @@
 			font="font-weight:normal;color:#000000;";
 		}
 		if (attr == "Phy" || attr == "End") font += "width:100px;";
+		if (attr == "Lead") font += "text-decoration:underline;";
 		document.writeln("<td>"+attr+" :</td><td align='right' style='" + font + "'>"+n+"</td>");
 	}
 

@@ -42,6 +42,8 @@ The Atlanteans practiced three forms of now lost magic: appellomancy, ballomancy
 Through dance, songs, chants, hums, and mere spoken words the Atlantean's changed the face of the world and the course of history.
 Although their magic is complex and takes at least several minutes to complete even the simplest of spells, the power and duration of their magic is unequalled. 
 
+The Atlanteans practice a form of magic known as the Thread. With it they can affect matter, forces, space, time, life, death, mind, spirit, and the primal force of magic itself. This is why the annunaki/igigi feared them so much.
+
 * +4 Charisma, +4 Appearance< +4 Intelligence, +4 Faith, +4 Bravery
 * Immortal
 * May choose any 2 attributes to have a maximum of 24 instead of 20.

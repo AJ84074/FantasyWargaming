@@ -100,14 +100,16 @@
 		for(var i=1;i<=numBogeys;i++) {
 			extraFlag = false;
 			var r = die(1,100);
+			bogeyCount+=1;
 			if (r>=(100-bogey.length+1)) {
-				bogeyCount+=1;
 				if(bogey[r-(100-bogey.length+1)]=='Roll an additional 1d3 bogeys'){
 					extraFlag = true;
 					var addRolls=die(1,3);
 					numBogeys+=addRolls;
 				}
 				document.writeln("<tr><td></td><td colspan=50>Bogey " + bogeyCount + " (" + r + ") : " + bogey[r-(100-bogey.length+1)] + ((extraFlag) ? " (roll was "+ addRolls + ")" : "") + "</td></tr>");
+			} else {
+				document.writeln("<tr><td></td><td colspan=50>Bogey " + bogeyCount + " (" + r + ") : Roll resulted in nothing.</td></tr>");
 			}
 		}
 	}
@@ -160,11 +162,11 @@
 		"Inept Climber : You can't climb, the best you can do is hold yourself in position",
 		"Talented Climber : +2 to all Climbing checks and you climb well",
 		"Inept Rider : You can't rind any animal, the best you can do is sit on a mount",
-		"Talented Rider:  +2 to all Riding checks and you ride well",
+		"Talented Rider :  +2 to all Riding checks and you ride well",
 		"Inept Singer : You can't sing at all and not for magical or religious purposes",
 		"Talented Singer : +2 to all Singing checks and you sing well",
 		"Inept Swimmer : You can't swim and begin to drown as soon as you enter water",
-		"Talented Swimmer: +2 to all Swimming checks and you swim well",
+		"Talented Swimmer : +2 to all Swimming checks and you swim well",
 		"Inept Thief : You can't steal and are always seen or caught when making any thieving attempt",
 		"Talented Thief : +2 to all Stealing checks and you steal well",
 		"Inept Tracker : You can't track anything ever",
@@ -234,7 +236,9 @@
 		"Haunted : You are haunted by ghosts",
 		"Medium : You can see and speak to ghosts",
 		"Obsessive Gambler : You will never refuse to bet or game",
-		"Sense of Location: You always know true north and your position relative to previous places)",
+		"Sense of Location : You always know true north and your position relative to previous places",
+		"Oblivious : You have trouble following activity that is going one around you, you always go last",
+		"Aware : You are always able to follow activity that is going on around you, you always go frst",
 		"Kleptomania : You always steal small things and must succeed in a Greed control test to keep from stealing any small worthless items around you",
 		"Gift of Tongues : You can learn or decipher any written or spoken language or page of inscriptions within a day, you can automatically read and write well, and you can start as a scholar",
 		"Psychopath : You enjoy killing so much that must succeed in a Selfishness control test to keep from killing opponents, captives, or anyone that is helpless",
@@ -247,6 +251,4 @@
 		"Something Wonderful (GM may or may not tell you)"
 	];
 	</script>
-
-
 </body></html>

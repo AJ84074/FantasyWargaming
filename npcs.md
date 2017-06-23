@@ -11,8 +11,8 @@ None of her skin is directly visible under her veil, gloves, and stockings and t
 She makes all of her own clothing and raises her own silk worms.
 Her primary income is from the silk of her silk worm farms, whose production is increased using her Atlantean magic.
 
-She wears multiple gold necklaces, bracelets, and anklets all decorated with ornate hanging gold leaves that jingle faintly when moves. 
-Her rings and bracelets are all ornately crafted gold covered in strange writings and symbols (Atlantean).
+She wears multiple gray metal necklaces, bracelets, and anklets all decorated with ornate hanging leaves that jingle faintly when moves. 
+Her rings and bracelets are all ornately crafted gray metal covered in strange writings and symbols (Atlantean).
 She wears no jewels or gemstones.
 
 Her voice is soothing and gentle and those with great hearing will notice it sounds like her voice has a slight echo as if two nearly identical voices speaking at the same time.

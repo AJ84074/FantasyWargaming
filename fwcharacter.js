@@ -54,12 +54,22 @@ function rollAttrSet(pc) {
 		var r = die(1,100);
 		bogeyCount+=1;
 		if (r>=(100-bogey.length+1)) {
-			if(bogey[r-(100-bogey.length+1)]=='Roll an additional 1d3 bogeys'){
+			var newBogey = bogey[r-(100-bogey.length+1)];
+			if(newBogey=='Roll an additional 1d3 bogeys'){
 				extraFlag = true;
 				var addRolls=die(1,3);
 				numBogeys+=addRolls;
 			}
 			pc.bogeys.push({bogey: '(' + r.pad(2) + ') ' + bogey[r-(100-bogey.length+1)] + ((extraFlag) ? ' (roll was '+ addRolls + ')' : '')});
+			if (newBogey.search('\\+1 Leadership')) {
+				pc.leadership+=1;
+			} else if (newBogey.search('\\+2 Leadership')) {
+				pc.leadership+=2;
+			} else if (newBogey.search('\\-1 Leadership')) {
+				pc.leadership-=1;
+			} else if (newBogey.search('\\-2 Leadership')) {
+				pc.leadership-=2;
+			}
 		} else {
 			pc.bogeys.push({bogey: '(' + r.pad(2) + ') Roll resulted in nothing.'});
 		}

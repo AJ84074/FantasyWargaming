@@ -61,15 +61,113 @@ function rollAttrSet(pc) {
 				numBogeys+=addRolls;
 			}
 			pc.bogeys.push({bogey: '(' + r.pad(2) + ') ' + bogey[r-(100-bogey.length+1)] + ((extraFlag) ? ' (roll was '+ addRolls + ')' : '')});
-			if (newBogey.search('\\+1 Leadership')) {
-				pc.leadership+=1;
-			} else if (newBogey.search('\\+2 Leadership')) {
-				pc.leadership+=2;
-			} else if (newBogey.search('\\-1 Leadership')) {
-				pc.leadership-=1;
-			} else if (newBogey.search('\\-2 Leadership')) {
-				pc.leadership-=2;
+			if (newBogey.search('\\+2 Agility')!=-1) {
+				pc.agility+=2;
+console.log('Agility +2');
 			}
+			if (newBogey.search('\\-2 Agility')!=-1) {
+				pc.agility-=2;
+console.log('Agility -2');
+			}
+			if (newBogey.search('\\+2 Appearance')!=-1) {
+				pc.appearance+=2;
+console.log('Appearance +2');
+			}
+			if (newBogey.search('\\-2 Appearance')!=-1) {
+				pc.appearance-=2;
+console.log('Appearance -2');
+			}
+			if (newBogey.search('\\+2 Bravery')!=-1) {
+				pc.bravery+=2;
+console.log('Bravery +2');
+			}
+			if (newBogey.search('\\-2 Bravery')!=-1) {
+				pc.bravery-=2;
+console.log('Bravery -2');
+			}
+			if (newBogey.search('\\+2 Charisma')!=-1) {
+				pc.charisma+=2;
+console.log('Charisma +2');
+			}
+			if (newBogey.search('\\-2 Charsima')!=-1) {
+				pc.charisma-=2;
+console.log('Charisma -2');
+			}
+			if (newBogey.search('\\+2 Endurance')!=-1) {
+				pc.endurance+=2;
+console.log('Endurance +2');
+			}
+			if (newBogey.search('\\-2 Endurance')!=-1) {
+				pc.endurance-=2;
+console.log('Endurance -2');
+			}
+			if (newBogey.search('\\+2 Faith')!=-1) {
+				pc.faith+=2;
+console.log('Faith +2');
+			}
+			if (newBogey.search('\\-2 Faith')!=-1) {
+				pc.faith-=2;
+console.log('Faith -2');
+			}
+			if (newBogey.search('\\+2 Intelligence')!=-1) {
+				pc.intelligence+=2;
+console.log('Intelligence +2');
+			}
+			if (newBogey.search('\\-2 Intelligence')!=-1) {
+				pc.intelligence-=2;
+console.log('Intelligence -2');
+			}
+			if (newBogey.search('\\+2 Physique')!=-1) {
+				pc.physique+=2;
+console.log('Physique +2');
+			}
+			if (newBogey.search('\\-2 Physique')!=-1) {
+				pc.physique-=2;
+console.log('Physique -2');
+			}
+			if (newBogey.search('\\+2 Greed')!=-1) {
+				pc.greed+=2;
+console.log('Greed +2');
+			}
+			if (newBogey.search('\\-2 Greed')!=-1) {
+				pc.greed-=2;
+console.log('Greed -2');
+			}
+			if (newBogey.search('\\+2 Lust')!=-1) {
+				pc.lust+=2;
+console.log('Lust +2');
+			}
+			if (newBogey.search('\\-2 Lust')!=-1) {
+				pc.lust-=2;
+console.log('Lust -2');
+			}
+			if (newBogey.search('\\+2 Selfishness')!=-1) {
+				pc.selfishness+=2;
+console.log('Selfishness +2');
+			}
+			if (newBogey.search('\\-2 Selfishness')!=-1) {
+				pc.selfishness-=2;
+console.log('Selfishness -2');
+			}
+			// Recalculate Leadership
+			pc.leadership = ((2*pc.charisma)+(pc.appearance)+(pc.physique)+(pc.intelligence)+(pc.bravery)+(4*pc.socialclass))/10;
+			// Leadership Bonuses
+			if (newBogey.search('\\+1 Leadership')!=-1) {
+				pc.leadership+=1;
+console.log('Leadership +1');
+			} 
+			if (newBogey.search('\\+2 Leadership')!=-1) {
+				pc.leadership+=2;
+console.log('Leadership +2');
+			} 
+			if (newBogey.search('\\-1 Leadership')!=-1) {
+				pc.leadership-=-1;
+console.log('Leadership -1');
+			} 
+			if (newBogey.search('\\-2 Leadership')!=-1) {
+				pc.leadership-=2;
+console.log('Leadership -2');
+			} 
 		} else {
 			pc.bogeys.push({bogey: '(' + r.pad(2) + ') Roll resulted in nothing.'});
 		}

@@ -1,5 +1,5 @@
 var fs = require('fs');
-var io = require('socket.io').listen(88);
+var io = require('socket.io').listen(8888);
 
 io.on('connection', function(socket) {
     socket.on('roll', function(data){
@@ -12,7 +12,7 @@ io.on('connection', function(socket) {
 			socket.emit('result', pc);
 			fs.writeFile(pc.player+'.txt', JSON.stringify(pc), function(err){
 				if (err) {
-					console.log(err);
+					socket.emit('err',err);
 				}
 			});
 		}
@@ -200,6 +200,10 @@ Number.prototype.formatInchesToFeetAndInches = function() {
 	return feet + "'" + inches + "\"";
 }
 
+
+
+
+
 var bogey = [
 	"Red Hair : +2 Charisma, +2 Appearance, +2 Bravery, +2 Leadership; you have been touched by the gods; you ignore Ugly or Repulsive",
 	"Inept Climber : You can't climb, the best you can do is hold yourself in position",
@@ -244,10 +248,14 @@ var bogey = [
 	"Chaste : -2 Lust",
 	"Pariah : -2 Leadership",
 	"Influential : +2 Leadership",
-	"Susceptibility to Alcohol : All alcohol, drugs, narcotics, and poisons take half as much to affect you, half the normal time to affect you, last twice as long, and have double any numerical effects",
-	"Resistance to Alcohol : All alcohol, drugs, narcotics, and poisons take twice as much to affect you, take twice as long to affect you, last half as long, and have half any numerical effects",
+	"Susceptibility to Alcohol : All alcohol takes half as much to affect you, half the normal time to affect you, lasts twice as long, and has double any numerical effects",
+	"Resistance to Alcohol : All alcohol takes twice as much to affect you, takes twice as long to affect you, lasts half as long, and has half any numerical effects",
 	"Susceptibility to Fatigue : You take half as long to get fatigued and take twice as long to recover from fatigue",
 	"Resistance to Fatigue : You take twice as long to get fatigued and take half as long to recover from fatigue",
+	"Susceptibility to Poisons : All poisons take half as much to affect you, half the normal time to affect you, last twice as long, and have double any numerical effects",
+	"Resistance to Poisons : All poisons take twice as much to affect you, take twice as long to affect you, last half as long, and have half any numerical effects",
+	"Susceptibility to Narcotics : All narcotics take half as much to affect you, half the normal time to affect you, last twice as long, and have double any numerical effects",
+	"Resistance to Narcotics : All narcotics take twice as much to affect you, take twice as long to affect you, last half as long, and have half any numerical effects",
 	"Susceptibility to Infection : You are highly susceptable to illness and infection",
 	"Resistance to Infection : You are highly resistance to illness and infection",
 	"Susceptibiity to Pain : All damage received is considered doubled (but not actually doubled) but only for the purposes of remaining conscious or resisting torture",
@@ -268,20 +276,20 @@ var bogey = [
 	"Good Luck : +1 on all Luck rolls",
 	"Bad with Animals : Animals (non-sentient) do not like you, you cannot own pets, mounts are difficult for you to control, you can never ride well",
 	"Good with Animals : Animals (non-sentient) really like you, you easily own pets and can teach them tricks, mounts easily trust and obey you, you can ride and ride well",
-	"Inoffensive : You have difficulty inspiring Anger in others, oppoents you target for Anger control tests have a +4 Bravery for the attempt",
-	"Taunting : You can easily inspire Anger in others, opponents you target for Anger control tests have a -4 Bravery for the attempt",
-	"Bumbler : You have difficulty inspiring Greed in others, opponents you target for Greed control tests have a -4 Greed for the attempt",
-	"Grifter : You can easily inspire Greed in others, opponents you target for Greed control tests have a +4 Greed for the attempt",
-	"Repulsive : You have difficulty inspiring Lust in others, opponents you target for Lust control tests have a -4 Lust for the attempt",
-	"Seductive : You can easily inspire Lust in others, opponents you target for Lust control tests have a +4 Lust for the attempt",
-	"Selfishness Penalty : You have difficulty inspiring Selfishness in others, opponents you target for Selfishness control tests have a -4 Selfishness for the attempt",
-	"Selfishness Bonus : You can easily inspire Selfishness in others, opponents you target for Selfishness control tests have a +4 Selfishness for the attempt",
+	"Inoffensive : You have difficulty inspiring Anger in others, oppoents you target for Anger control tests have a +2 Bravery for the attempt",
+	"Taunting : You can easily inspire Anger in others, opponents you target for Anger control tests have a -2 Bravery for the attempt",
+	"Bumbler : You have difficulty inspiring Greed in others, opponents you target for Greed control tests have a -2 Greed for the attempt",
+	"Grifter : You can easily inspire Greed in others, opponents you target for Greed control tests have a +2 Greed for the attempt",
+	"Repulsive : You have difficulty inspiring Lust in others, opponents you target for Lust control tests have a -2 Lust for the attempt",
+	"Seductive : You can easily inspire Lust in others, opponents you target for Lust control tests have a +2 Lust for the attempt",
+	"Selfishness Penalty : You have difficulty inspiring Selfishness in others, opponents you target for Selfishness control tests have a -2 Selfishness for the attempt",
+	"Selfishness Bonus : You can easily inspire Selfishness in others, opponents you target for Selfishness control tests have a +2 Selfishness for the attempt",
 	"Haunted : You are haunted by ghosts",
 	"Medium : You can see and speak to ghosts",
 	"Obsessive Gambler : You will never refuse to bet or game",
 	"Sense of Location : You always know true north and your position relative to previous places",
-	"Oblivious : You have trouble following activity that is going one around you, you always go last",
-	"Aware : You are always able to follow activity that is going on around you, you always go frst",
+	"Oblivious : You have trouble following activity that is going on around you, you usually go last in combat",
+	"Aware : You are always able to follow activity that is going on around you, you usually go first in combat",
 	"Kleptomania : You always steal small things and must succeed in a Greed control test to keep from stealing any small worthless items around you",
 	"Gift of Tongues : You can learn or decipher any written or spoken language or page of inscriptions within a day, you can automatically read and write well, and you can start as a scholar",
 	"Psychopath : You enjoy killing so much that must succeed in a Selfishness control test to keep from killing opponents, captives, or anyone that is helpless",
